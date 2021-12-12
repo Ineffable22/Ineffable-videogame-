@@ -23,6 +23,14 @@ Objects {
   ChildIds: 2492581164572122434
   ChildIds: 258673970906437539
   ChildIds: 12530192853700773308
+  ChildIds: 7798601640204450888
+  ChildIds: 3781520021730759081
+  ChildIds: 15222658230459921758
+  ChildIds: 1625110055366154187
+  ChildIds: 1804222094488727599
+  ChildIds: 18442141722377870073
+  ChildIds: 6616284938051177858
+  ChildIds: 1869290005916842939
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -35,6 +43,289 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 1869290005916842939
+  Name: "Viking weapons"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 16120199853489928066
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Viking weapons"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1450
+            Y: 3600
+            Z: -750
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 972314042441517229
+    }
+  }
+}
+Objects {
+  Id: 6616284938051177858
+  Name: "Swappable Weapons Inventory Demo"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 15604954925405845461
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Swappable Weapons Inventory Demo"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: -550
+            Y: 2800
+            Z: -750
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 170617204611882961
+    }
+  }
+}
+Objects {
+  Id: 18442141722377870073
+  Name: "_Spellshock Weapons Example Setup"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 579963488068691239
+      value {
+        Overrides {
+          Name: "Name"
+          String: "_Spellshock Weapons Example Setup"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 150
+            Y: 4300
+            Z: -750
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1503547673213171831
+    }
+  }
+}
+Objects {
+  Id: 1804222094488727599
+  Name: "Medieval Weapons Pack by DocBdesign"
+  Transform {
+    Location {
+      X: 750
+      Y: 3000
+      Z: -750
+    }
+    Rotation {
+      Yaw: 90
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsFilePartition: true
+    FilePartitionName: "Weapns Pack"
+  }
+  InstanceHistory {
+    SelfId: 1804222094488727599
+    SubobjectId: 305515800291545954
+    InstanceId: 16162543083067837295
+    TemplateId: 15473037258273870077
+    WasRoot: true
+  }
+}
+Objects {
+  Id: 1625110055366154187
+  Name: "Grand Kingdom Weapons "
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 12698773812214191367
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Grand Kingdom Weapons "
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 1200
+            Y: -3400
+            Z: -750
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 4858957574314666329
+    }
+  }
+}
+Objects {
+  Id: 15222658230459921758
+  Name: "Athylian Weapons Pack"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 10166929279525953235
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Athylian Weapons Pack"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2100
+            Y: 1700
+            Z: -750
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 6929159393385936356
+    }
+  }
+}
+Objects {
+  Id: 3781520021730759081
+  Name: "9 weapons"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 8416957530119228774
+      value {
+        Overrides {
+          Name: "Name"
+          String: "9 weapons"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 850
+            Y: 1650
+            Z: -750
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 17265959842822844107
+    }
+  }
+}
+Objects {
+  Id: 7798601640204450888
+  Name: "Inventario castle fight"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 18091000514914478669
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Inventario castle fight"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 2500
+            Y: 2400
+            Z: -750
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10894793715804294242
+    }
   }
 }
 Objects {
@@ -11090,8 +11381,8 @@ Objects {
     Rotation {
     }
     Scale {
-      X: 50
-      Y: 50
+      X: 367
+      Y: 344
       Z: 1
     }
   }

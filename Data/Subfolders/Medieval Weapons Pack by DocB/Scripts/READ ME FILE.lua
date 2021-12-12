@@ -1,0 +1,3 @@
+--This CC comes complete with 10 different weapons and their seperate geometries.
+--Drag the Weapons Pack into your heirarchy to test the working weapons, or to use the artwork geometry for yourself.
+--The working weapon examples are to the left side, and the plain geo folders are to the left.
