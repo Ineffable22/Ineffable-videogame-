@@ -8,15 +8,6 @@ Assets {
   }
 }
 Assets {
-  Id: 17778267738201724546
-  Name: "Rope"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_rope_001"
-  }
-}
-Assets {
   Id: 17674811744755871201
   Name: "Metal Steel Brushed"
   PlatformAssetType: 2
@@ -71,30 +62,12 @@ Assets {
   }
 }
 Assets {
-  Id: 11892494746123028781
-  Name: "Cylinder - Chamfered Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_002"
-  }
-}
-Assets {
   Id: 11889841719945808699
   Name: "Metal Iron Rusted 02"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_iron_003"
-  }
-}
-Assets {
-  Id: 11074529456351850062
-  Name: "Stucco Tintable"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_stucco_tint_001_uv"
   }
 }
 Assets {
@@ -122,15 +95,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_basic_001"
-  }
-}
-Assets {
-  Id: 9488581736266775331
-  Name: "Sphere"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_sphere_002"
   }
 }
 Assets {
@@ -188,15 +152,6 @@ Assets {
   }
 }
 Assets {
-  Id: 4919715636246155701
-  Name: "Cube - Chamfered Small Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_hq_003"
-  }
-}
-Assets {
   Id: 4050437425243511619
   Name: "Wood Raw"
   PlatformAssetType: 2
@@ -215,15 +170,6 @@ Assets {
   }
 }
 Assets {
-  Id: 3675725690086627392
-  Name: "Cylinder - Chamfered Small Polished"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cylinder_hq_003"
-  }
-}
-Assets {
   Id: 3337256621200851928
   Name: "Fantasy Crossbow Bolt 01"
   PlatformAssetType: 1
@@ -233,39 +179,12 @@ Assets {
   }
 }
 Assets {
-  Id: 3255814708276840062
-  Name: "Cone - Truncated"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cone_truncated_001"
-  }
-}
-Assets {
-  Id: 2882460131459124042
-  Name: "Burning Wood"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "fxmi_burning_erode"
-  }
-}
-Assets {
   Id: 2349308577479628099
   Name: "Bark Pine 01"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_bark_pine_001_uv"
-  }
-}
-Assets {
-  Id: 1964254608213071037
-  Name: "Bark Redwood 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_bark_redwood_001_uv"
   }
 }
 Assets {
