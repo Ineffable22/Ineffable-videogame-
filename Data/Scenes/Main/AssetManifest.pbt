@@ -107,6 +107,15 @@ Assets {
   }
 }
 Assets {
+  Id: 13777655116221385659
+  Name: "Cube - 6 Toned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prim_cube_6_toned_001_ref"
+  }
+}
+Assets {
   Id: 13612855434532842510
   Name: "Wedge - Corner Complex"
   PlatformAssetType: 1
