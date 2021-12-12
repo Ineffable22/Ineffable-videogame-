@@ -1,4 +1,13 @@
 Assets {
+  Id: 17357264942575451366
+  Name: "Heart"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_heart_001"
+  }
+}
+Assets {
   Id: 17112985054030154012
   Name: "Urban Plank Debris 02"
   PlatformAssetType: 1
