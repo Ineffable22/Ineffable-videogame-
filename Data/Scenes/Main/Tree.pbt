@@ -19,10 +19,6 @@ Objects {
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
   ChildIds: 17514249763626755832
-  ChildIds: 17669059470214439922
-  ChildIds: 2492581164572122434
-  ChildIds: 258673970906437539
-  ChildIds: 12530192853700773308
   ChildIds: 7798601640204450888
   ChildIds: 15169561630698956042
   ChildIds: 7396393893516288466
@@ -210,7 +206,7 @@ Objects {
       value {
         Overrides {
           Name: "Name"
-          String: "Grand Kingdom Weapons "
+          String: "Grand Kingdom Weapons (No Usable)"
         }
         Overrides {
           Name: "Position"
@@ -12390,7 +12386,7 @@ Objects {
   Transform {
     Location {
       X: 850
-      Y: 1650
+      Y: 1400
       Z: -750
     }
     Scale {
@@ -12455,178 +12451,6 @@ Objects {
     }
     TemplateAsset {
       Id: 10894793715804294242
-    }
-  }
-}
-Objects {
-  Id: 12530192853700773308
-  Name: "Advanced Hammer"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 3463194666526297834
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Advanced Hammer"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -701.421265
-            Y: 1543.39954
-            Z: -735.458496
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 366556380870924010
-    }
-  }
-}
-Objects {
-  Id: 258673970906437539
-  Name: "Advanced 2-Handed Sword"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  WantsNetworking: true
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13380154364575694248
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Advanced 2-Handed Sword"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -363.364105
-            Y: 1575.94214
-            Z: -735.458496
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 18288016671105136391
-    }
-  }
-}
-Objects {
-  Id: 2492581164572122434
-  Name: "Sky Sci-fi 01"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 8090713207782208821
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 853.698
-            Y: -1675.73254
-            Z: 300
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 12743596547252287504
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Sky Sci-fi 01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -2043.51636
-            Y: 2020.80981
-            Z: -735.458496
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 14133460696525495649
-    }
-  }
-}
-Objects {
-  Id: 17669059470214439922
-  Name: "Sky Nighttime 01"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 13664821734768608629
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Sky Nighttime 01"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -1964.26794
-            Y: 1691.33801
-            Z: -735.458496
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16180970171577782523
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 447.774414
-            Y: -1481.43274
-            Z: 300
-          }
-        }
-        Overrides {
-          Name: "Rotation"
-          Rotator {
-            Pitch: -36.9108887
-            Yaw: 4.26431608
-            Roll: 5.98035
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 15187449583324432052
     }
   }
 }
