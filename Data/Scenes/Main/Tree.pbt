@@ -20,13 +20,13 @@ Objects {
   ChildIds: 14982843161775482339
   ChildIds: 17514249763626755832
   ChildIds: 7798601640204450888
-  ChildIds: 6616284938051177858
   ChildIds: 2936620531816953763
   ChildIds: 15169561630698956042
   ChildIds: 7396393893516288466
   ChildIds: 11487011257234701017
   ChildIds: 1804222094488727599
   ChildIds: 18442141722377870073
+  ChildIds: 425842130623023801
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -39,6 +39,41 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 425842130623023801
+  Name: "Advanced Dual Katana"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7967256371717441243
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Advanced Dual Katana"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 400
+            Y: 2600
+            Z: -700
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 10913044566818812317
+    }
   }
 }
 Objects {
@@ -5774,91 +5809,6 @@ Objects {
     }
     TemplateAsset {
       Id: 692207590367269758
-    }
-  }
-}
-Objects {
-  Id: 6616284938051177858
-  Name: "Swappable Weapons Inventory Demo"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 4781671109827199097
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 12036630717259548237
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 250
-            Y: -350
-            Z: 50
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 13503263831089179836
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 300
-            Y: -350
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15141456296144773386
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 200
-            Y: -350
-            Z: 50
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 15604954925405845461
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Swappable Weapons Inventory Demo"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: -550
-            Y: 2800
-            Z: -750
-          }
-        }
-      }
-    }
-    ParameterOverrideMap {
-      key: 16402720653299744064
-      value {
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 381.164062
-            Y: -412.53833
-            Z: 100
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 170617204611882961
     }
   }
 }
