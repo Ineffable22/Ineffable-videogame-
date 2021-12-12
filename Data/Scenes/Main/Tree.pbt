@@ -28,7 +28,8 @@ Objects {
   ChildIds: 18442141722377870073
   ChildIds: 425842130623023801
   ChildIds: 8340272893672630034
-  ChildIds: 10097965838886419718
+  ChildIds: 17207181470893363797
+  ChildIds: 4982189312320104169
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -44,20 +45,20 @@ Objects {
   }
 }
 Objects {
-  Id: 10097965838886419718
-  Name: "Heart"
+  Id: 4982189312320104169
+  Name: "Heart - Broken Right"
   Transform {
     Location {
-      X: 2444.41748
-      Y: -1173.28149
-      Z: -569.232056
+      X: 2694.75293
+      Y: -764.904358
+      Z: -685.208191
     }
     Rotation {
     }
     Scale {
-      X: 21.8902359
+      X: 1
       Y: 1
-      Z: 32.6876831
+      Z: 1
     }
   }
   ParentId: 4781671109827199097
@@ -75,7 +76,54 @@ Objects {
   }
   CoreMesh {
     MeshAsset {
-      Id: 17357264942575451366
+      Id: 7750605363032623716
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
+  Id: 17207181470893363797
+  Name: "Heart - Broken Left"
+  Transform {
+    Location {
+      X: 2696.33618
+      Y: -765.263428
+      Z: -685.208252
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 12133488915439655550
     }
     Teams {
       IsTeamCollisionEnabled: true

@@ -1,13 +1,4 @@
 Assets {
-  Id: 17357264942575451366
-  Name: "Heart"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_heart_001"
-  }
-}
-Assets {
   Id: 17112985054030154012
   Name: "Urban Plank Debris 02"
   PlatformAssetType: 1
@@ -206,6 +197,15 @@ Assets {
   }
 }
 Assets {
+  Id: 12133488915439655550
+  Name: "Heart - Broken Left"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_heart_broken_left_001"
+  }
+}
+Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -356,6 +356,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_Sky"
+  }
+}
+Assets {
+  Id: 7750605363032623716
+  Name: "Heart - Broken Right"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_heart_broken_right_001"
   }
 }
 Assets {
