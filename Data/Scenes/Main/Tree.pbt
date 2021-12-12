@@ -14,6 +14,7 @@ Objects {
       Z: 1
     }
   }
+  ChildIds: 8561623215998272542
   ChildIds: 9086936746104183945
   ChildIds: 16813558807825262224
   ChildIds: 10005074784157121906
@@ -28,8 +29,7 @@ Objects {
   ChildIds: 18442141722377870073
   ChildIds: 425842130623023801
   ChildIds: 8340272893672630034
-  ChildIds: 17207181470893363797
-  ChildIds: 4982189312320104169
+  ChildIds: 419386420079066300
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -45,13 +45,13 @@ Objects {
   }
 }
 Objects {
-  Id: 4982189312320104169
-  Name: "Heart - Broken Right"
+  Id: 419386420079066300
+  Name: "Heart"
   Transform {
     Location {
-      X: 2694.75293
-      Y: -764.904358
-      Z: -685.208191
+      X: 2695.54443
+      Y: -758.947
+      Z: -688.799805
     }
     Rotation {
     }
@@ -62,6 +62,42 @@ Objects {
     }
   }
   ParentId: 4781671109827199097
+  ChildIds: 17207181470893363797
+  ChildIds: 4982189312320104169
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4982189312320104169
+  Name: "Heart - Broken Right"
+  Transform {
+    Location {
+      X: -0.791503906
+      Y: 0.17956543
+      Z: 6.10351562e-05
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 0.187846795
+      Z: 1
+    }
+  }
+  ParentId: 419386420079066300
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -96,19 +132,18 @@ Objects {
   Name: "Heart - Broken Left"
   Transform {
     Location {
-      X: 2696.33618
-      Y: -765.263428
-      Z: -685.208252
+      X: 0.791748047
+      Y: -0.179504395
     }
     Rotation {
     }
     Scale {
       X: 1
-      Y: 1
+      Y: 0.187846795
       Z: 1
     }
   }
-  ParentId: 4781671109827199097
+  ParentId: 419386420079066300
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -33290,5 +33325,31 @@ Objects {
   Folder {
     IsFilePartition: true
     FilePartitionName: "Gameplay Settings"
+  }
+}
+Objects {
+  Id: 8561623215998272542
+  Name: "Health Bar"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 1675656989204002660
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Health Bar"
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 16750964992200641648
+    }
   }
 }
