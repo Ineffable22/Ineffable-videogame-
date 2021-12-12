@@ -57,6 +57,7 @@ Objects {
           Vector {
             X: -400
             Y: -100
+            Z: -735.458496
           }
         }
       }
@@ -71,7 +72,7 @@ Objects {
   Name: "Default Floor"
   Transform {
     Location {
-      Z: -50
+      Z: -785.458496
     }
     Rotation {
     }
