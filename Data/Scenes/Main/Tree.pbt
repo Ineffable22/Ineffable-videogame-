@@ -47,8 +47,8 @@ Objects {
   Name: "Celda de armas"
   Transform {
     Location {
-      X: 4472.54834
-      Y: 1588.07678
+      X: -100
+      Y: 4850
       Z: -686.969299
     }
     Rotation {
@@ -15947,8 +15947,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 400
-            Y: 2600
+            X: 800
+            Y: 4600
             Z: -700
           }
         }
@@ -15998,12 +15998,11 @@ Objects {
   Name: "Medieval Weapons Pack by DocBdesign"
   Transform {
     Location {
-      X: 750
-      Y: 3000
+      X: 1100
+      Y: 5750
       Z: -950
     }
     Rotation {
-      Yaw: 90
     }
     Scale {
       X: 1
@@ -16041,8 +16040,8 @@ Objects {
   Name: "Viking weapons"
   Transform {
     Location {
-      X: 1450
-      Y: 3600
+      X: -550
+      Y: 4800
       Z: -750
     }
     Scale {
@@ -16078,8 +16077,8 @@ Objects {
   Name: "Athylian Weapons Pack"
   Transform {
     Location {
-      X: 2100
-      Y: 1700
+      X: 300
+      Y: 5000
       Z: -750
     }
     Rotation {
@@ -21625,8 +21624,8 @@ Objects {
   Name: "9 weapons"
   Transform {
     Location {
-      X: 850
-      Y: 1400
+      X: -100
+      Y: 5500
       Z: -750
     }
     Scale {
@@ -21683,8 +21682,8 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            X: 1400
-            Y: 400
+            X: 750
+            Y: 4950
             Z: -650
           }
         }
