@@ -1,7 +1,7 @@
-Name: "Effects"
-RootId: 17094820567960699126
+Name: "Effects_2"
+RootId: 1117974791876354406
 Objects {
-  Id: 17813189576278368087
+  Id: 2174257241411846693
   Name: "Disable Aim Sound"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17094820567960699126
+  ParentId: 1117974791876354406
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -33,14 +33,14 @@ Objects {
     Radius: -1
   }
   InstanceHistory {
-    SelfId: 17813189576278368087
-    SubobjectId: 13252213751256601100
-    InstanceId: 1869290005916842939
-    TemplateId: 972314042441517229
+    SelfId: 2174257241411846693
+    SubobjectId: 222937111276314984
+    InstanceId: 16162543083067837295
+    TemplateId: 15473037258273870077
   }
 }
 Objects {
-  Id: 10204608854028513573
+  Id: 9601777108869864315
   Name: "Enable Aim Sound"
   Transform {
     Location {
@@ -53,7 +53,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17094820567960699126
+  ParentId: 1117974791876354406
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -72,14 +72,14 @@ Objects {
     Radius: -1
   }
   InstanceHistory {
-    SelfId: 10204608854028513573
-    SubobjectId: 14790513957225233534
-    InstanceId: 1869290005916842939
-    TemplateId: 972314042441517229
+    SelfId: 9601777108869864315
+    SubobjectId: 10985640719215409206
+    InstanceId: 16162543083067837295
+    TemplateId: 15473037258273870077
   }
 }
 Objects {
-  Id: 5665195409375490446
+  Id: 15122882991905543650
   Name: "WeaponAimSoundClient"
   Transform {
     Location {
@@ -92,18 +92,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17094820567960699126
+  ParentId: 1117974791876354406
   UnregisteredParameters {
     Overrides {
       Name: "cs:EnableAimSound"
       ObjectReference {
-        SelfId: 10204608854028513573
+        SelfId: 9601777108869864315
       }
     }
     Overrides {
       Name: "cs:DisableAimSound"
       ObjectReference {
-        SelfId: 17813189576278368087
+        SelfId: 2174257241411846693
       }
     }
   }
@@ -118,18 +118,18 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 16046555083840371690
+      Id: 17517653213040901659
     }
   }
   InstanceHistory {
-    SelfId: 5665195409375490446
-    SubobjectId: 1027571194256096469
-    InstanceId: 1869290005916842939
-    TemplateId: 972314042441517229
+    SelfId: 15122882991905543650
+    SubobjectId: 14766122968515835567
+    InstanceId: 16162543083067837295
+    TemplateId: 15473037258273870077
   }
 }
 Objects {
-  Id: 15012517085832529876
+  Id: 14253675312152750846
   Name: "WeaponReloadCastSoundClient"
   Transform {
     Location {
@@ -142,7 +142,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17094820567960699126
+  ParentId: 1117974791876354406
   UnregisteredParameters {
     Overrides {
       Name: "cs:PlayCount"
@@ -160,18 +160,18 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 226901697969851158
+      Id: 17947946626054941602
     }
   }
   InstanceHistory {
-    SelfId: 15012517085832529876
-    SubobjectId: 10415514241883097743
-    InstanceId: 1869290005916842939
-    TemplateId: 972314042441517229
+    SelfId: 14253675312152750846
+    SubobjectId: 15635285431540664755
+    InstanceId: 16162543083067837295
+    TemplateId: 15473037258273870077
   }
 }
 Objects {
-  Id: 15983400631661075796
+  Id: 9908900120034490579
   Name: "WeaponLowAmmoFeedbackClient"
   Transform {
     Location {
@@ -184,7 +184,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17094820567960699126
+  ParentId: 1117974791876354406
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -198,13 +198,13 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 2334656756759735620
+      Id: 2357425820276664282
     }
   }
   InstanceHistory {
-    SelfId: 15983400631661075796
-    SubobjectId: 11316430459519930383
-    InstanceId: 1869290005916842939
-    TemplateId: 972314042441517229
+    SelfId: 9908900120034490579
+    SubobjectId: 10716305723626085278
+    InstanceId: 16162543083067837295
+    TemplateId: 15473037258273870077
   }
 }

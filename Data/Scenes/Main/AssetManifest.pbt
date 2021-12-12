@@ -1,4 +1,31 @@
 Assets {
+  Id: 17977280587505271142
+  Name: "Basic Projectile Trail VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_basic_projectile_trail"
+  }
+}
+Assets {
+  Id: 17964792826949913863
+  Name: "Tech Panel 05"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_sf_gen_tech-panel_005"
+  }
+}
+Assets {
+  Id: 17263106863269340511
+  Name: "Text 05: ~"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "F6_Text_036"
+  }
+}
+Assets {
   Id: 17112985054030154012
   Name: "Urban Plank Debris 02"
   PlatformAssetType: 1
@@ -17,12 +44,66 @@ Assets {
   }
 }
 Assets {
+  Id: 16857223818540172449
+  Name: "Carbon Fiber 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_carbon-fiber_001"
+  }
+}
+Assets {
+  Id: 16585617308340486587
+  Name: "Fantasy Dagger 007"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Weapon_Dagger_007"
+  }
+}
+Assets {
   Id: 16419600479874531831
   Name: "Flower Bellflower 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_foliage_gen_flower_bell_002_ref"
+  }
+}
+Assets {
+  Id: 16400015035755492128
+  Name: "Military Crate Hinge 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_mil_crate_hinge_001_ref"
+  }
+}
+Assets {
+  Id: 16256765616119620780
+  Name: "Sci-fi Ship Nose 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_nose_001_ref"
+  }
+}
+Assets {
+  Id: 16133194784709665999
+  Name: "Wireframe"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "wireframe_glow_001"
+  }
+}
+Assets {
+  Id: 16077824162186241922
+  Name: "Sci-fi Panel 2x3m Triangle"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_panel_2x3m_triangle_001"
   }
 }
 Assets {
@@ -62,12 +143,48 @@ Assets {
   }
 }
 Assets {
+  Id: 14372471564914388161
+  Name: "Fantasy Crossbow Stirrup 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_stirrup_cross_001"
+  }
+}
+Assets {
+  Id: 14212988502358508072
+  Name: "Metal Basic Steel"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "steel_001"
+  }
+}
+Assets {
   Id: 14023144080669477239
   Name: "Hill 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hill_002"
+  }
+}
+Assets {
+  Id: 13888119501670323283
+  Name: "Fantasy Sword Blade 04"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_blade_sword_004_ref"
+  }
+}
+Assets {
+  Id: 13629958479359906438
+  Name: "Cylinder - Rounded Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_rounded_001"
   }
 }
 Assets {
@@ -86,6 +203,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ivy_generic_004"
+  }
+}
+Assets {
+  Id: 13386378558210270594
+  Name: "Fantasy Ability Blue 051"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Blue_051"
   }
 }
 Assets {
@@ -152,6 +278,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11617232052619371599
+  Name: "Military Tank Historic Armor Plate 01 - Front"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_mil_tank_hst_armorplate_001_front_ref"
+  }
+}
+Assets {
   Id: 11594910148849014947
   Name: "Food Citrus 01"
   PlatformAssetType: 2
@@ -188,6 +323,15 @@ Assets {
   }
 }
 Assets {
+  Id: 10780552303138620685
+  Name: "Sci-fi Ship Engine 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_engine_003_ref"
+  }
+}
+Assets {
   Id: 10723979191292964767
   Name: "Sci-fi Panel 1x3m Angled Right"
   PlatformAssetType: 1
@@ -203,6 +347,33 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_food_generic_cheese_001_uv"
+  }
+}
+Assets {
+  Id: 10471863599632008253
+  Name: "Carbon Fiber 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_carbon-fiber_001"
+  }
+}
+Assets {
+  Id: 10384064708370016005
+  Name: "Diamond - 6-Sided"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_diamond_6_sided_001"
+  }
+}
+Assets {
+  Id: 10364179596115918262
+  Name: "Fantasy Shield 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Weapon_Shield_001"
   }
 }
 Assets {
@@ -224,12 +395,39 @@ Assets {
   }
 }
 Assets {
+  Id: 9587142875035991904
+  Name: "Cylinder - Chamfered Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_hq_002"
+  }
+}
+Assets {
+  Id: 8739223503440803430
+  Name: "Fantasy Ability Teal 014"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Teal_014"
+  }
+}
+Assets {
   Id: 8241801555468289405
   Name: "Stone Window"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_stone_window_001"
+  }
+}
+Assets {
+  Id: 8120172434194110335
+  Name: "Sci-fi Ship Wing Small 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_wing_small_001_ref"
   }
 }
 Assets {
@@ -278,12 +476,39 @@ Assets {
   }
 }
 Assets {
+  Id: 6789604014209716330
+  Name: "Sci-fi Ship Engine 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_scf_ship_engine_001_ref"
+  }
+}
+Assets {
+  Id: 6369534179775929774
+  Name: "Barrier Reflector"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_urb_barrier_reflector_001"
+  }
+}
+Assets {
   Id: 6315330769936069977
   Name: "Fern 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_fern_generic_003"
+  }
+}
+Assets {
+  Id: 6269033558325107252
+  Name: "Cone - Truncated Hollow Wide"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_hollow_004"
   }
 }
 Assets {
@@ -296,12 +521,48 @@ Assets {
   }
 }
 Assets {
+  Id: 5982043299559036472
+  Name: "Fantasy Sword 017"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Weapon_Sword_017"
+  }
+}
+Assets {
+  Id: 5933418524957934947
+  Name: "Ellipsoid - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ellipsoid_truncated_001"
+  }
+}
+Assets {
   Id: 5646704112327633341
   Name: "Sphere - Half"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_hemisphere_001"
+  }
+}
+Assets {
+  Id: 5633575978713831654
+  Name: "Fantasy Shield 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_shield_002"
+  }
+}
+Assets {
+  Id: 5605120965849612947
+  Name: "Fantasy Sword Blade 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_blade_sword_001"
   }
 }
 Assets {
@@ -350,6 +611,24 @@ Assets {
   }
 }
 Assets {
+  Id: 4305627177137124836
+  Name: "Additive Soft Edge"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_additive_edgefade"
+  }
+}
+Assets {
+  Id: 4127483204560974682
+  Name: "Cylinder - Chamfered Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_hq_002"
+  }
+}
+Assets {
   Id: 4096954105294154559
   Name: "Urban Plank Debris 03"
   PlatformAssetType: 1
@@ -368,6 +647,24 @@ Assets {
   }
 }
 Assets {
+  Id: 3682206342183528038
+  Name: "Fantasy Sword Grip 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_grip_sword_001"
+  }
+}
+Assets {
+  Id: 3593597783924766211
+  Name: "Cone - Bullet"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_bullet_001"
+  }
+}
+Assets {
   Id: 3584007417411989222
   Name: "Urban Plank Debris 01"
   PlatformAssetType: 1
@@ -377,12 +674,57 @@ Assets {
   }
 }
 Assets {
+  Id: 2636144864817816116
+  Name: "Cylinder - Chamfered"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_chamfer"
+  }
+}
+Assets {
+  Id: 2506956793400130868
+  Name: "Energy Tube Glow"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "Energy_Tube_Glow"
+  }
+}
+Assets {
+  Id: 2494920176024075778
+  Name: "Fire Volume VFX"
+  PlatformAssetType: 8
+  PrimaryAsset {
+    AssetType: "VfxBlueprintAssetRef"
+    AssetId: "fxbp_fire_volume_vfx"
+  }
+}
+Assets {
   Id: 2264041107168619230
   Name: "Cone - Bullet"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_bullet_001"
+  }
+}
+Assets {
+  Id: 2249794126015640337
+  Name: "Carbon Fiber 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_carbon-fiber_001"
+  }
+}
+Assets {
+  Id: 2042353230298908149
+  Name: "Fantasy Ability Yellow 024"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Yellow_024"
   }
 }
 Assets {
@@ -431,12 +773,30 @@ Assets {
   }
 }
 Assets {
+  Id: 1383772742094820961
+  Name: "Fantasy Pommel 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_fan_pommel_001"
+  }
+}
+Assets {
   Id: 1358940098853848634
   Name: "Animated Glowing Hex"
   PlatformAssetType: 2
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "fxma_hex_animated"
+  }
+}
+Assets {
+  Id: 1137112816547272582
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
   }
 }
 Assets {

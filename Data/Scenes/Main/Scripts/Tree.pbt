@@ -1,10 +1,12 @@
-Name: "Effects"
-RootId: 17094820567960699126
+Name: "Scripts"
+RootId: 14143021264780924212
 Objects {
-  Id: 17813189576278368087
-  Name: "Disable Aim Sound"
+  Id: 2924196778665303614
+  Name: "WeaponReticleClient"
   Transform {
     Location {
+      X: -10.000001
+      Y: -115
     }
     Rotation {
     }
@@ -14,7 +16,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17094820567960699126
+  ParentId: 14143021264780924212
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -24,24 +28,21 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
-  AudioInstance {
-    AudioAsset {
-      Id: 17757915654427719657
+  Script {
+    ScriptAsset {
+      Id: 12959534334657779367
     }
-    Volume: 0.4
-    Falloff: -1
-    Radius: -1
   }
   InstanceHistory {
-    SelfId: 17813189576278368087
-    SubobjectId: 13252213751256601100
-    InstanceId: 1869290005916842939
-    TemplateId: 972314042441517229
+    SelfId: 2924196778665303614
+    SubobjectId: 10294882209031878226
+    InstanceId: 3781520021730759081
+    TemplateId: 17265959842822844107
   }
 }
 Objects {
-  Id: 10204608854028513573
-  Name: "Enable Aim Sound"
+  Id: 8153018586956841495
+  Name: "WeaponAutoReloadClient"
   Transform {
     Location {
     }
@@ -53,7 +54,9 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17094820567960699126
+  ParentId: 14143021264780924212
+  UnregisteredParameters {
+  }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -63,24 +66,21 @@ Objects {
   CameraCollidable {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
-  AudioInstance {
-    AudioAsset {
-      Id: 11032692064555494742
+  Script {
+    ScriptAsset {
+      Id: 3881445643379301238
     }
-    Volume: 0.4
-    Falloff: -1
-    Radius: -1
   }
   InstanceHistory {
-    SelfId: 10204608854028513573
-    SubobjectId: 14790513957225233534
-    InstanceId: 1869290005916842939
-    TemplateId: 972314042441517229
+    SelfId: 8153018586956841495
+    SubobjectId: 15523704078122281595
+    InstanceId: 3781520021730759081
+    TemplateId: 17265959842822844107
   }
 }
 Objects {
-  Id: 5665195409375490446
-  Name: "WeaponAimSoundClient"
+  Id: 1118899140466574502
+  Name: "WeaponAmmoFeedbackClient"
   Transform {
     Location {
     }
@@ -92,18 +92,100 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17094820567960699126
+  ParentId: 14143021264780924212
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12121885456584914176
+    }
+  }
+  InstanceHistory {
+    SelfId: 1118899140466574502
+    SubobjectId: 12235490180869041354
+    InstanceId: 3781520021730759081
+    TemplateId: 17265959842822844107
+  }
+}
+Objects {
+  Id: 13329161601672220484
+  Name: "WeaponSpreadClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000012
+      Z: 1
+    }
+  }
+  ParentId: 14143021264780924212
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14744379843923167152
+    }
+  }
+  InstanceHistory {
+    SelfId: 13329161601672220484
+    SubobjectId: 2211443829079910184
+    InstanceId: 3781520021730759081
+    TemplateId: 17265959842822844107
+  }
+}
+Objects {
+  Id: 11446356190132062263
+  Name: "WeaponAimScopeClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000012
+      Z: 1
+    }
+  }
+  ParentId: 14143021264780924212
   UnregisteredParameters {
     Overrides {
-      Name: "cs:EnableAimSound"
+      Name: "cs:ReloadAbility"
       ObjectReference {
-        SelfId: 10204608854028513573
+        SelfId: 13424959784308143818
       }
     }
     Overrides {
-      Name: "cs:DisableAimSound"
+      Name: "cs:ClientArt"
       ObjectReference {
-        SelfId: 17813189576278368087
+        SelfId: 1533994073712608471
+      }
+    }
+    Overrides {
+      Name: "cs:ZoomSound"
+      ObjectReference {
+        SelfId: 9566293155294482248
       }
     }
   }
@@ -118,93 +200,13 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 16046555083840371690
+      Id: 15007490716350178020
     }
   }
   InstanceHistory {
-    SelfId: 5665195409375490446
-    SubobjectId: 1027571194256096469
-    InstanceId: 1869290005916842939
-    TemplateId: 972314042441517229
-  }
-}
-Objects {
-  Id: 15012517085832529876
-  Name: "WeaponReloadCastSoundClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.00000012
-      Y: 1.00000012
-      Z: 1
-    }
-  }
-  ParentId: 17094820567960699126
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:PlayCount"
-      Int: 1
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 226901697969851158
-    }
-  }
-  InstanceHistory {
-    SelfId: 15012517085832529876
-    SubobjectId: 10415514241883097743
-    InstanceId: 1869290005916842939
-    TemplateId: 972314042441517229
-  }
-}
-Objects {
-  Id: 15983400631661075796
-  Name: "WeaponLowAmmoFeedbackClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.00000012
-      Y: 1.00000012
-      Z: 1
-    }
-  }
-  ParentId: 17094820567960699126
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 2334656756759735620
-    }
-  }
-  InstanceHistory {
-    SelfId: 15983400631661075796
-    SubobjectId: 11316430459519930383
-    InstanceId: 1869290005916842939
-    TemplateId: 972314042441517229
+    SelfId: 11446356190132062263
+    SubobjectId: 4076797689253126235
+    InstanceId: 3781520021730759081
+    TemplateId: 17265959842822844107
   }
 }

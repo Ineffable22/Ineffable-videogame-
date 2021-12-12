@@ -1689,7 +1689,7 @@ Objects {
   }
   Folder {
     IsFilePartition: true
-    FilePartitionName: "Effects"
+    FilePartitionName: "Effects_2"
   }
   InstanceHistory {
     SelfId: 1117974791876354406

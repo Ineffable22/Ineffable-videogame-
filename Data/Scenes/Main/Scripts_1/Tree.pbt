@@ -1,8 +1,8 @@
-Name: "Effects"
-RootId: 17094820567960699126
+Name: "Scripts_1"
+RootId: 13846850136844557293
 Objects {
-  Id: 17813189576278368087
-  Name: "Disable Aim Sound"
+  Id: 2974391674660898342
+  Name: "WeaponAutoReloadClient"
   Transform {
     Location {
     }
@@ -14,177 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17094820567960699126
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 17757915654427719657
-    }
-    Volume: 0.4
-    Falloff: -1
-    Radius: -1
-  }
-  InstanceHistory {
-    SelfId: 17813189576278368087
-    SubobjectId: 13252213751256601100
-    InstanceId: 1869290005916842939
-    TemplateId: 972314042441517229
-  }
-}
-Objects {
-  Id: 10204608854028513573
-  Name: "Enable Aim Sound"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.00000012
-      Y: 1.00000012
-      Z: 1
-    }
-  }
-  ParentId: 17094820567960699126
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  AudioInstance {
-    AudioAsset {
-      Id: 11032692064555494742
-    }
-    Volume: 0.4
-    Falloff: -1
-    Radius: -1
-  }
-  InstanceHistory {
-    SelfId: 10204608854028513573
-    SubobjectId: 14790513957225233534
-    InstanceId: 1869290005916842939
-    TemplateId: 972314042441517229
-  }
-}
-Objects {
-  Id: 5665195409375490446
-  Name: "WeaponAimSoundClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.00000012
-      Y: 1.00000012
-      Z: 1
-    }
-  }
-  ParentId: 17094820567960699126
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:EnableAimSound"
-      ObjectReference {
-        SelfId: 10204608854028513573
-      }
-    }
-    Overrides {
-      Name: "cs:DisableAimSound"
-      ObjectReference {
-        SelfId: 17813189576278368087
-      }
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 16046555083840371690
-    }
-  }
-  InstanceHistory {
-    SelfId: 5665195409375490446
-    SubobjectId: 1027571194256096469
-    InstanceId: 1869290005916842939
-    TemplateId: 972314042441517229
-  }
-}
-Objects {
-  Id: 15012517085832529876
-  Name: "WeaponReloadCastSoundClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.00000012
-      Y: 1.00000012
-      Z: 1
-    }
-  }
-  ParentId: 17094820567960699126
-  UnregisteredParameters {
-    Overrides {
-      Name: "cs:PlayCount"
-      Int: 1
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 226901697969851158
-    }
-  }
-  InstanceHistory {
-    SelfId: 15012517085832529876
-    SubobjectId: 10415514241883097743
-    InstanceId: 1869290005916842939
-    TemplateId: 972314042441517229
-  }
-}
-Objects {
-  Id: 15983400631661075796
-  Name: "WeaponLowAmmoFeedbackClient"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1.00000012
-      Y: 1.00000012
-      Z: 1
-    }
-  }
-  ParentId: 17094820567960699126
+  ParentId: 13846850136844557293
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -198,13 +28,165 @@ Objects {
   }
   Script {
     ScriptAsset {
-      Id: 2334656756759735620
+      Id: 3881445643379301238
     }
   }
   InstanceHistory {
-    SelfId: 15983400631661075796
-    SubobjectId: 11316430459519930383
-    InstanceId: 1869290005916842939
-    TemplateId: 972314042441517229
+    SelfId: 2974391674660898342
+    SubobjectId: 10307957593014824522
+    InstanceId: 3781520021730759081
+    TemplateId: 17265959842822844107
+  }
+}
+Objects {
+  Id: 5470778082197117886
+  Name: "WeaponAmmoFeedbackClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000012
+      Z: 1
+    }
+  }
+  ParentId: 13846850136844557293
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12121885456584914176
+    }
+  }
+  InstanceHistory {
+    SelfId: 5470778082197117886
+    SubobjectId: 17124385658809398226
+    InstanceId: 3781520021730759081
+    TemplateId: 17265959842822844107
+  }
+}
+Objects {
+  Id: 10069854617180730099
+  Name: "WeaponReticleClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000012
+      Z: 1
+    }
+  }
+  ParentId: 13846850136844557293
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 12959534334657779367
+    }
+  }
+  InstanceHistory {
+    SelfId: 10069854617180730099
+    SubobjectId: 3311657302017759903
+    InstanceId: 3781520021730759081
+    TemplateId: 17265959842822844107
+  }
+}
+Objects {
+  Id: 16839630220731967966
+  Name: "WeaponSpreadClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000012
+      Z: 1
+    }
+  }
+  ParentId: 13846850136844557293
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 14744379843923167152
+    }
+  }
+  InstanceHistory {
+    SelfId: 16839630220731967966
+    SubobjectId: 5762483121007346098
+    InstanceId: 3781520021730759081
+    TemplateId: 17265959842822844107
+  }
+}
+Objects {
+  Id: 9666283524378864735
+  Name: "WeaponAimClient"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000012
+      Z: 1
+    }
+  }
+  ParentId: 13846850136844557293
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 3643165763168170772
+    }
+  }
+  InstanceHistory {
+    SelfId: 9666283524378864735
+    SubobjectId: 2337253924180493363
+    InstanceId: 3781520021730759081
+    TemplateId: 17265959842822844107
   }
 }

@@ -1,7 +1,7 @@
-Name: "Effects"
-RootId: 17094820567960699126
+Name: "Effects_1"
+RootId: 5023836803287278339
 Objects {
-  Id: 17813189576278368087
+  Id: 1087940528432985089
   Name: "Disable Aim Sound"
   Transform {
     Location {
@@ -14,7 +14,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17094820567960699126
+  ParentId: 5023836803287278339
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -26,21 +26,21 @@ Objects {
   }
   AudioInstance {
     AudioAsset {
-      Id: 17757915654427719657
+      Id: 12325282812849366343
     }
     Volume: 0.4
     Falloff: -1
     Radius: -1
   }
   InstanceHistory {
-    SelfId: 17813189576278368087
-    SubobjectId: 13252213751256601100
+    SelfId: 1087940528432985089
+    SubobjectId: 5748105633296464218
     InstanceId: 1869290005916842939
     TemplateId: 972314042441517229
   }
 }
 Objects {
-  Id: 10204608854028513573
+  Id: 4568122508273834159
   Name: "Enable Aim Sound"
   Transform {
     Location {
@@ -53,7 +53,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17094820567960699126
+  ParentId: 5023836803287278339
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
@@ -65,21 +65,21 @@ Objects {
   }
   AudioInstance {
     AudioAsset {
-      Id: 11032692064555494742
+      Id: 8732445481193040639
     }
     Volume: 0.4
     Falloff: -1
     Radius: -1
   }
   InstanceHistory {
-    SelfId: 10204608854028513573
-    SubobjectId: 14790513957225233534
+    SelfId: 4568122508273834159
+    SubobjectId: 9203458287806305780
     InstanceId: 1869290005916842939
     TemplateId: 972314042441517229
   }
 }
 Objects {
-  Id: 5665195409375490446
+  Id: 7920571904301828739
   Name: "WeaponAimSoundClient"
   Transform {
     Location {
@@ -92,18 +92,18 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17094820567960699126
+  ParentId: 5023836803287278339
   UnregisteredParameters {
     Overrides {
       Name: "cs:EnableAimSound"
       ObjectReference {
-        SelfId: 10204608854028513573
+        SelfId: 4568122508273834159
       }
     }
     Overrides {
       Name: "cs:DisableAimSound"
       ObjectReference {
-        SelfId: 17813189576278368087
+        SelfId: 1087940528432985089
       }
     }
   }
@@ -122,14 +122,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 5665195409375490446
-    SubobjectId: 1027571194256096469
+    SelfId: 7920571904301828739
+    SubobjectId: 3258351674169264088
     InstanceId: 1869290005916842939
     TemplateId: 972314042441517229
   }
 }
 Objects {
-  Id: 15012517085832529876
+  Id: 9369394757200135337
   Name: "WeaponReloadCastSoundClient"
   Transform {
     Location {
@@ -142,7 +142,7 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17094820567960699126
+  ParentId: 5023836803287278339
   UnregisteredParameters {
     Overrides {
       Name: "cs:PlayCount"
@@ -164,14 +164,14 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 15012517085832529876
-    SubobjectId: 10415514241883097743
+    SelfId: 9369394757200135337
+    SubobjectId: 14040742977939393010
     InstanceId: 1869290005916842939
     TemplateId: 972314042441517229
   }
 }
 Objects {
-  Id: 15983400631661075796
+  Id: 4630475039270359024
   Name: "WeaponLowAmmoFeedbackClient"
   Transform {
     Location {
@@ -184,8 +184,14 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 17094820567960699126
+  ParentId: 5023836803287278339
   UnregisteredParameters {
+    Overrides {
+      Name: "cs:LowAmmoSound"
+      AssetReference {
+        Id: 5212005176913405181
+      }
+    }
   }
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -202,8 +208,8 @@ Objects {
     }
   }
   InstanceHistory {
-    SelfId: 15983400631661075796
-    SubobjectId: 11316430459519930383
+    SelfId: 4630475039270359024
+    SubobjectId: 44678898884330155
     InstanceId: 1869290005916842939
     TemplateId: 972314042441517229
   }
