@@ -17,6 +17,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16967025786036962869
+  Name: "BG Highlighted 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_020"
+  }
+}
+Assets {
   Id: 16965777294932964901
   Name: "Cube - Chamfered Large Polished"
   PlatformAssetType: 1
@@ -32,6 +41,15 @@ Assets {
   PrimaryAsset {
     AssetType: "BlueprintAssetRef"
     AssetId: "CORESKY_SunLight"
+  }
+}
+Assets {
+  Id: 16901581322625610526
+  Name: "Frame Outlined Thick 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameFlat_020"
   }
 }
 Assets {
@@ -59,6 +77,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_mil_crate_hinge_001_ref"
+  }
+}
+Assets {
+  Id: 16327934883181731081
+  Name: "Icon Food"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Food"
   }
 }
 Assets {
@@ -419,6 +446,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_heart_broken_right_001"
+  }
+}
+Assets {
+  Id: 7718590677344265722
+  Name: "Icon Player Move"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_PlayerMove"
   }
 }
 Assets {
