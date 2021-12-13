@@ -22,6 +22,7 @@ Objects {
   ChildIds: 12963881042042075370
   ChildIds: 17514249763626755832
   ChildIds: 7798601640204450888
+  ChildIds: 10978804601821647352
   ChildIds: 3263631061275072165
   ChildIds: 15169561630698956042
   ChildIds: 7396393893516288466
@@ -24889,6 +24890,42 @@ Objects {
   }
 }
 Objects {
+  Id: 10978804601821647352
+  Name: "Chinese Crossbow"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  WantsNetworking: true
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 14934994781472954733
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Chinese Crossbow"
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15224345360202133246
+      value {
+        Overrides {
+          Name: "CoreProxy.IsAdvanced"
+          Bool: false
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 1883912839333445384
+    }
+  }
+}
+Objects {
   Id: 7798601640204450888
   Name: "Inventario castle fight"
   Transform {
@@ -24905,7 +24942,72 @@ Objects {
       value {
         Overrides {
           Name: "UIX"
-          Float: -900
+          Float: -200
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 346893621096199651
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 3259084834789296112
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 4570281120718842744
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 6219768651853854896
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 8490840256038755324
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
         }
         Overrides {
           Name: "UIY"
@@ -24927,19 +25029,102 @@ Objects {
       }
     }
     ParameterOverrideMap {
+      key: 12121950570211347186
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 12704143617326257937
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 50
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13092750570336172258
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13135101818609675147
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 13441614263210340680
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 14862806383381305734
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+      }
+    }
+    ParameterOverrideMap {
+      key: 15100757990885224656
+      value {
+        Overrides {
+          Name: "UIX"
+          Float: 0
+        }
+        Overrides {
+          Name: "UIY"
+          Float: 0
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 18091000514914478669
       value {
         Overrides {
           Name: "Name"
           String: "Inventario castle fight"
-        }
-        Overrides {
-          Name: "Position"
-          Vector {
-            X: 2500
-            Y: 2400
-            Z: -1400
-          }
         }
       }
     }
