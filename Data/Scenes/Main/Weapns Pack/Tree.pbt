@@ -129,6 +129,7 @@ Objects {
     }
   }
   ParentId: 1804222094488727599
+  ChildIds: 8440584511881677346
   ChildIds: 15651106699498718866
   ChildIds: 15736496814580904224
   ChildIds: 11667310474193277030
@@ -2133,6 +2134,64 @@ Objects {
   }
 }
 Objects {
+  Id: 8440584511881677346
+  Name: "DestructibleWeaponServer"
+  Transform {
+    Location {
+      X: -2529.85034
+      Y: -5441.09229
+      Z: -112.629822
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000012
+      Z: 1
+    }
+  }
+  ParentId: 10893929342191291785
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DamageToObjects"
+      Int: 80
+    }
+    Overrides {
+      Name: "cs:DamageToPlayers"
+      Int: 12
+    }
+    Overrides {
+      Name: "cs:HeadshotPlayers"
+      Int: 160
+    }
+    Overrides {
+      Name: "cs:HeadshotNPCs"
+      Int: 24
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18103048820507909161
+    }
+  }
+  InstanceHistory {
+    SelfId: 10995766994239506475
+    SubobjectId: 9498351349790225662
+    InstanceId: 15025552986519118824
+    TemplateId: 6126364246865263229
+  }
+}
+Objects {
   Id: 7191849427596178622
   Name: "Double Blade"
   Transform {
@@ -2427,6 +2486,9 @@ Objects {
   ChildIds: 10457661041224101162
   ChildIds: 4236915710050082595
   ChildIds: 11269123314679274796
+  ChildIds: 15161811280286730545
+  ChildIds: 985906848400135370
+  ChildIds: 15058888129802401600
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -2445,6 +2507,201 @@ Objects {
     SubobjectId: 8662996179369065016
     InstanceId: 16162543083067837295
     TemplateId: 15473037258273870077
+  }
+}
+Objects {
+  Id: 15058888129802401600
+  Name: "MeleeAbilityServer"
+  Transform {
+    Location {
+      X: 253.789307
+      Y: -591.091797
+      Z: -205.652039
+    }
+    Rotation {
+    }
+    Scale {
+    }
+  }
+  ParentId: 7281667829161990517
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Ability"
+      ObjectReference {
+        SelfId: 2090845967412518215
+      }
+    }
+    Overrides {
+      Name: "cs:HitBox"
+      ObjectReference {
+        SelfId: 7592818426247368975
+      }
+    }
+    Overrides {
+      Name: "cs:DamageRange"
+      Vector2 {
+        X: 49
+        Y: 51
+      }
+    }
+    Overrides {
+      Name: "cs:AttackImpulse"
+      Float: 100000
+    }
+    Overrides {
+      Name: "cs:VerticalImpulse"
+      Float: 40000
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9092158049659532867
+    }
+  }
+  InstanceHistory {
+    SelfId: 16506876429261837922
+    SubobjectId: 7925806192741301547
+    InstanceId: 16826621702592670234
+    TemplateId: 6039015025193211168
+  }
+}
+Objects {
+  Id: 985906848400135370
+  Name: "MeleeAbilityServer"
+  Transform {
+    Location {
+      X: 253.789307
+      Y: -591.091797
+      Z: -205.652039
+    }
+    Rotation {
+    }
+    Scale {
+    }
+  }
+  ParentId: 7281667829161990517
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Ability"
+      ObjectReference {
+        SelfId: 13826447034788006561
+      }
+    }
+    Overrides {
+      Name: "cs:HitBox"
+      ObjectReference {
+        SelfId: 7592818426247368975
+      }
+    }
+    Overrides {
+      Name: "cs:DamageRange"
+      Vector2 {
+        X: 49
+        Y: 51
+      }
+    }
+    Overrides {
+      Name: "cs:AttackImpulse"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:VerticalImpulse"
+      Float: 0
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9092158049659532867
+    }
+  }
+  InstanceHistory {
+    SelfId: 8117113008950621441
+    SubobjectId: 17892780826470391368
+    InstanceId: 16826621702592670234
+    TemplateId: 6039015025193211168
+  }
+}
+Objects {
+  Id: 15161811280286730545
+  Name: "MeleeAbilityServer"
+  Transform {
+    Location {
+      X: 253.789307
+      Y: -591.091797
+      Z: -205.652039
+    }
+    Rotation {
+    }
+    Scale {
+    }
+  }
+  ParentId: 7281667829161990517
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Ability"
+      ObjectReference {
+        SelfId: 12905308707601286878
+      }
+    }
+    Overrides {
+      Name: "cs:HitBox"
+      ObjectReference {
+        SelfId: 7592818426247368975
+      }
+    }
+    Overrides {
+      Name: "cs:DamageRange"
+      Vector2 {
+        X: 49
+        Y: 51
+      }
+    }
+    Overrides {
+      Name: "cs:AttackImpulse"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:VerticalImpulse"
+      Float: 0
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9092158049659532867
+    }
+  }
+  InstanceHistory {
+    SelfId: 10441604367119445073
+    SubobjectId: 1729995524466427672
+    InstanceId: 16826621702592670234
+    TemplateId: 6039015025193211168
   }
 }
 Objects {
@@ -2631,7 +2888,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
-      Float: 25
+      Float: 55
     }
     Overrides {
       Name: "cs:Hitbox"
@@ -2752,7 +3009,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
-      Float: 25
+      Float: 35
     }
     Overrides {
       Name: "cs:Hitbox"
@@ -3772,8 +4029,10 @@ Objects {
   ParentId: 8951274030653448506
   ChildIds: 13327525440115000092
   ChildIds: 7510213858600883196
-  ChildIds: 8283288967043610133
   ChildIds: 11506574384372970812
+  ChildIds: 12262745219823598600
+  ChildIds: 15892125626546569203
+  ChildIds: 14143911231326090226
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -3792,6 +4051,201 @@ Objects {
     SubobjectId: 13389028667823672942
     InstanceId: 16162543083067837295
     TemplateId: 15473037258273870077
+  }
+}
+Objects {
+  Id: 14143911231326090226
+  Name: "MeleeAbilityServer"
+  Transform {
+    Location {
+      X: 768.321167
+      Y: -591.091797
+      Z: -185.824768
+    }
+    Rotation {
+    }
+    Scale {
+    }
+  }
+  ParentId: 11888352709149601059
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Ability"
+      ObjectReference {
+        SelfId: 7253532770143142595
+      }
+    }
+    Overrides {
+      Name: "cs:HitBox"
+      ObjectReference {
+        SelfId: 3861933943411992642
+      }
+    }
+    Overrides {
+      Name: "cs:DamageRange"
+      Vector2 {
+        X: 49
+        Y: 51
+      }
+    }
+    Overrides {
+      Name: "cs:VerticalImpulse"
+      Float: 40000
+    }
+    Overrides {
+      Name: "cs:AttackImpulse"
+      Float: 2e+07
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9092158049659532867
+    }
+  }
+  InstanceHistory {
+    SelfId: 16506876429261837922
+    SubobjectId: 7925806192741301547
+    InstanceId: 16826621702592670234
+    TemplateId: 6039015025193211168
+  }
+}
+Objects {
+  Id: 15892125626546569203
+  Name: "MeleeAbilityServer"
+  Transform {
+    Location {
+      X: 768.321167
+      Y: -591.091797
+      Z: -185.824768
+    }
+    Rotation {
+    }
+    Scale {
+    }
+  }
+  ParentId: 11888352709149601059
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Ability"
+      ObjectReference {
+        SelfId: 7562836822755213532
+      }
+    }
+    Overrides {
+      Name: "cs:HitBox"
+      ObjectReference {
+        SelfId: 3861933943411992642
+      }
+    }
+    Overrides {
+      Name: "cs:DamageRange"
+      Vector2 {
+        X: 49
+        Y: 51
+      }
+    }
+    Overrides {
+      Name: "cs:AttackImpulse"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:VerticalImpulse"
+      Float: 0
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9092158049659532867
+    }
+  }
+  InstanceHistory {
+    SelfId: 8117113008950621441
+    SubobjectId: 17892780826470391368
+    InstanceId: 16826621702592670234
+    TemplateId: 6039015025193211168
+  }
+}
+Objects {
+  Id: 12262745219823598600
+  Name: "MeleeAbilityServer"
+  Transform {
+    Location {
+      X: 768.321167
+      Y: -591.091797
+      Z: -185.824768
+    }
+    Rotation {
+    }
+    Scale {
+    }
+  }
+  ParentId: 11888352709149601059
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Ability"
+      ObjectReference {
+        SelfId: 14229123092061495490
+      }
+    }
+    Overrides {
+      Name: "cs:HitBox"
+      ObjectReference {
+        SelfId: 3861933943411992642
+      }
+    }
+    Overrides {
+      Name: "cs:DamageRange"
+      Vector2 {
+        X: 49
+        Y: 51
+      }
+    }
+    Overrides {
+      Name: "cs:AttackImpulse"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:VerticalImpulse"
+      Float: 0
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9092158049659532867
+    }
+  }
+  InstanceHistory {
+    SelfId: 10441604367119445073
+    SubobjectId: 1729995524466427672
+    InstanceId: 16826621702592670234
+    TemplateId: 6039015025193211168
   }
 }
 Objects {
@@ -3838,44 +4292,6 @@ Objects {
   InstanceHistory {
     SelfId: 11506574384372970812
     SubobjectId: 9411145669674276465
-    InstanceId: 16162543083067837295
-    TemplateId: 15473037258273870077
-  }
-}
-Objects {
-  Id: 8283288967043610133
-  Name: "EquipmentMeleeAttacksServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 11888352709149601059
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 14112360711742941344
-    }
-  }
-  InstanceHistory {
-    SelfId: 8283288967043610133
-    SubobjectId: 8052625258945385816
     InstanceId: 16162543083067837295
     TemplateId: 15473037258273870077
   }
@@ -3978,7 +4394,7 @@ Objects {
   UnregisteredParameters {
     Overrides {
       Name: "cs:Damage"
-      Float: 60
+      Float: 240
     }
     Overrides {
       Name: "cs:Hitbox"
@@ -4059,7 +4475,7 @@ Objects {
       }
     }
     CooldownPhaseSettings {
-      Duration: 1.6
+      Duration: 2.4
       CanMove: true
       CanJump: true
       CanRotate: true
@@ -4958,8 +5374,10 @@ Objects {
   ParentId: 4812850868941980528
   ChildIds: 8506795425563265873
   ChildIds: 12739788940859420857
-  ChildIds: 11639211455788499734
   ChildIds: 4644480317694225696
+  ChildIds: 6266719833237747615
+  ChildIds: 14807383922126699855
+  ChildIds: 8101529871632814172
   WantsNetworking: true
   Collidable_v2 {
     Value: "mc:ecollisionsetting:inheritfromparent"
@@ -4978,6 +5396,201 @@ Objects {
     SubobjectId: 15039470254095169027
     InstanceId: 16162543083067837295
     TemplateId: 15473037258273870077
+  }
+}
+Objects {
+  Id: 8101529871632814172
+  Name: "MeleeAbilityServer"
+  Transform {
+    Location {
+      X: 1074.49585
+      Y: -591.091797
+      Z: -88.850769
+    }
+    Rotation {
+    }
+    Scale {
+    }
+  }
+  ParentId: 14808510591603938638
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Ability"
+      ObjectReference {
+        SelfId: 10446580925978955841
+      }
+    }
+    Overrides {
+      Name: "cs:HitBox"
+      ObjectReference {
+        SelfId: 11264455493772061539
+      }
+    }
+    Overrides {
+      Name: "cs:DamageRange"
+      Vector2 {
+        X: 49
+        Y: 51
+      }
+    }
+    Overrides {
+      Name: "cs:AttackImpulse"
+      Float: 100000
+    }
+    Overrides {
+      Name: "cs:VerticalImpulse"
+      Float: 40000
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9092158049659532867
+    }
+  }
+  InstanceHistory {
+    SelfId: 16506876429261837922
+    SubobjectId: 7925806192741301547
+    InstanceId: 16826621702592670234
+    TemplateId: 6039015025193211168
+  }
+}
+Objects {
+  Id: 14807383922126699855
+  Name: "MeleeAbilityServer"
+  Transform {
+    Location {
+      X: 1074.49585
+      Y: -591.091797
+      Z: -88.850769
+    }
+    Rotation {
+    }
+    Scale {
+    }
+  }
+  ParentId: 14808510591603938638
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Ability"
+      ObjectReference {
+        SelfId: 7472541708000546483
+      }
+    }
+    Overrides {
+      Name: "cs:HitBox"
+      ObjectReference {
+        SelfId: 11264455493772061539
+      }
+    }
+    Overrides {
+      Name: "cs:DamageRange"
+      Vector2 {
+        X: 49
+        Y: 51
+      }
+    }
+    Overrides {
+      Name: "cs:AttackImpulse"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:VerticalImpulse"
+      Float: 0
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9092158049659532867
+    }
+  }
+  InstanceHistory {
+    SelfId: 8117113008950621441
+    SubobjectId: 17892780826470391368
+    InstanceId: 16826621702592670234
+    TemplateId: 6039015025193211168
+  }
+}
+Objects {
+  Id: 6266719833237747615
+  Name: "MeleeAbilityServer"
+  Transform {
+    Location {
+      X: 1074.49585
+      Y: -591.091797
+      Z: -88.850769
+    }
+    Rotation {
+    }
+    Scale {
+    }
+  }
+  ParentId: 14808510591603938638
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:Ability"
+      ObjectReference {
+        SelfId: 18200475821635766043
+      }
+    }
+    Overrides {
+      Name: "cs:HitBox"
+      ObjectReference {
+        SelfId: 11264455493772061539
+      }
+    }
+    Overrides {
+      Name: "cs:DamageRange"
+      Vector2 {
+        X: 49
+        Y: 51
+      }
+    }
+    Overrides {
+      Name: "cs:AttackImpulse"
+      Float: 0
+    }
+    Overrides {
+      Name: "cs:VerticalImpulse"
+      Float: 0
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 9092158049659532867
+    }
+  }
+  InstanceHistory {
+    SelfId: 10441604367119445073
+    SubobjectId: 1729995524466427672
+    InstanceId: 16826621702592670234
+    TemplateId: 6039015025193211168
   }
 }
 Objects {
@@ -5024,44 +5637,6 @@ Objects {
   InstanceHistory {
     SelfId: 4644480317694225696
     SubobjectId: 6719380892604288621
-    InstanceId: 16162543083067837295
-    TemplateId: 15473037258273870077
-  }
-}
-Objects {
-  Id: 11639211455788499734
-  Name: "EquipmentMeleeAttacksServer"
-  Transform {
-    Location {
-    }
-    Rotation {
-    }
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 14808510591603938638
-  UnregisteredParameters {
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Script {
-    ScriptAsset {
-      Id: 5002665581673564789
-    }
-  }
-  InstanceHistory {
-    SelfId: 11639211455788499734
-    SubobjectId: 13597003107352617051
     InstanceId: 16162543083067837295
     TemplateId: 15473037258273870077
   }

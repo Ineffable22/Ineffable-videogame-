@@ -1,10 +1,28 @@
 Assets {
+  Id: 17798409052959246679
+  Name: "Modern Weapon - Grip 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_grip_003"
+  }
+}
+Assets {
   Id: 17112985054030154012
   Name: "Urban Plank Debris 02"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urban_destruction_debris_plank_02_ref"
+  }
+}
+Assets {
+  Id: 16965777294932964901
+  Name: "Cube - Chamfered Large Polished"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_hq_002"
   }
 }
 Assets {
@@ -68,6 +86,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_rocks_small_001"
+  }
+}
+Assets {
+  Id: 15275463334341845517
+  Name: "Katana Handle"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_katana_handle_001"
   }
 }
 Assets {
@@ -251,6 +278,15 @@ Assets {
   }
 }
 Assets {
+  Id: 11019742060840546363
+  Name: "Katana Blade"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_katana_blade_001"
+  }
+}
+Assets {
   Id: 10780552303138620685
   Name: "Sci-fi Ship Engine 03"
   PlatformAssetType: 1
@@ -314,6 +350,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9468343199086191247
+  Name: "Modern Weapon - Barrel Tip 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_barreltip_002"
+  }
+}
+Assets {
   Id: 8739223503440803430
   Name: "Fantasy Ability Teal 014"
   PlatformAssetType: 9
@@ -359,6 +404,15 @@ Assets {
   }
 }
 Assets {
+  Id: 7866176206806313738
+  Name: "Modern Weapon - Scope 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_scope_001"
+  }
+}
+Assets {
   Id: 7750605363032623716
   Name: "Heart - Broken Right"
   PlatformAssetType: 1
@@ -401,6 +455,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_scf_ship_engine_001_ref"
+  }
+}
+Assets {
+  Id: 6777447344140592468
+  Name: "Metal Steel Brushed"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_stainless-steel_001_uv"
   }
 }
 Assets {
@@ -494,12 +557,30 @@ Assets {
   }
 }
 Assets {
+  Id: 4865030435811274479
+  Name: "Modern Weapon - Body 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_body_002"
+  }
+}
+Assets {
   Id: 4545713430863939559
   Name: "Ivy 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ivy_generic_001"
+  }
+}
+Assets {
+  Id: 4191189716791684405
+  Name: "Pipe - Thick"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_pipe_004"
   }
 }
 Assets {
@@ -521,12 +602,30 @@ Assets {
   }
 }
 Assets {
+  Id: 3642695097438974619
+  Name: "Katana Guard"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_prop_jpn_katana_guard_001"
+  }
+}
+Assets {
   Id: 3584007417411989222
   Name: "Urban Plank Debris 01"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urban_destruction_debris_plank_01_ref"
+  }
+}
+Assets {
+  Id: 2555126108594706721
+  Name: "Modern Weapon - Magazine 03"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_mag_003"
   }
 }
 Assets {
@@ -572,6 +671,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_fantasy_block_01"
+  }
+}
+Assets {
+  Id: 1905297035267569611
+  Name: "Modern Weapon - Stock 02"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_weap_modern_stock_002"
   }
 }
 Assets {
@@ -626,5 +734,14 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urban_destruction_debris_plank_04_ref"
+  }
+}
+Assets {
+  Id: 132672053610873933
+  Name: "Plastic Matte"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_matte_001"
   }
 }

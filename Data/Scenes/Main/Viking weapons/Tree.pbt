@@ -18,6 +18,7 @@ Objects {
     }
   }
   ParentId: 11487011257234701017
+  ChildIds: 603151158426957429
   ChildIds: 6876023701747538127
   ChildIds: 16227721339889047618
   ChildIds: 13682475713930905991
@@ -1805,6 +1806,64 @@ Objects {
   }
 }
 Objects {
+  Id: 603151158426957429
+  Name: "DestructibleWeaponServer"
+  Transform {
+    Location {
+      X: -1473.09485
+      Y: -4250.00049
+      Z: 50
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000012
+      Z: 1
+    }
+  }
+  ParentId: 15233646934946444986
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DamageToObjects"
+      Int: 40
+    }
+    Overrides {
+      Name: "cs:DamageToPlayers"
+      Int: 5
+    }
+    Overrides {
+      Name: "cs:HeadshotNPCs"
+      Int: 80
+    }
+    Overrides {
+      Name: "cs:HeadshotPlayers"
+      Int: 10
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18103048820507909161
+    }
+  }
+  InstanceHistory {
+    SelfId: 10995766994239506475
+    SubobjectId: 9498351349790225662
+    InstanceId: 15025552986519118824
+    TemplateId: 6126364246865263229
+  }
+}
+Objects {
   Id: 15668116078092658447
   Name: "Throwing Knifes"
   Transform {
@@ -1827,6 +1886,7 @@ Objects {
   ChildIds: 6967655520707644045
   ChildIds: 13460809355637485476
   ChildIds: 5816900044941172943
+  ChildIds: 10524530089123485899
   UnregisteredParameters {
     Overrides {
       Name: "cs:EnableAim"
@@ -1928,6 +1988,64 @@ Objects {
     SubobjectId: 11073277485654059604
     InstanceId: 1869290005916842939
     TemplateId: 972314042441517229
+  }
+}
+Objects {
+  Id: 10524530089123485899
+  Name: "DestructibleWeaponServer"
+  Transform {
+    Location {
+      X: -1544.64941
+      Y: -4168.8
+      Z: 82.013916
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1.00000012
+      Y: 1.00000012
+      Z: 1
+    }
+  }
+  ParentId: 15668116078092658447
+  UnregisteredParameters {
+    Overrides {
+      Name: "cs:DamageToObjects"
+      Int: 50
+    }
+    Overrides {
+      Name: "cs:DamageToPlayers"
+      Int: 6
+    }
+    Overrides {
+      Name: "cs:HeadshotNPCs"
+      Int: 10
+    }
+    Overrides {
+      Name: "cs:HeadshotPlayers"
+      Int: 90
+    }
+  }
+  WantsNetworking: true
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Script {
+    ScriptAsset {
+      Id: 18103048820507909161
+    }
+  }
+  InstanceHistory {
+    SelfId: 10995766994239506475
+    SubobjectId: 9498351349790225662
+    InstanceId: 15025552986519118824
+    TemplateId: 6126364246865263229
   }
 }
 Objects {
