@@ -34,6 +34,7 @@ Objects {
   ChildIds: 8340272893672630034
   ChildIds: 419386420079066300
   ChildIds: 419353763798737719
+  ChildIds: 624966723684652165
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -46,6 +47,42 @@ Objects {
     Value: "mc:ecollisionsetting:inheritfromparent"
   }
   Folder {
+  }
+}
+Objects {
+  Id: 624966723684652165
+  Name: "Spawn Point"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 1
+    PlayerScaleMultiplier: 1
+    SpawnEffectsTemplate {
+      Id: 841534158063459245
+    }
+    ShouldDecrowdPlayers: true
   }
 }
 Objects {
@@ -125,7 +162,7 @@ Objects {
   Name: "Heart - Broken Right"
   Transform {
     Location {
-      X: -0.791503906
+      X: -0.792
       Y: 0.17956543
       Z: 6.10351562e-05
     }

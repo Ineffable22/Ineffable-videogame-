@@ -43,82 +43,13 @@ Objects {
   }
 }
 Objects {
-  Id: 17710142845419085668
-  Name: "Cube"
-  Transform {
-    Location {
-      X: -953.647339
-      Y: 93.8347778
-      Z: 250
-    }
-    Rotation {
-    }
-    Scale {
-      X: 13.1909094
-      Y: 1.4472096
-      Z: 0.55697757
-    }
-  }
-  ParentId: 1804222094488727599
-  UnregisteredParameters {
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:id"
-      AssetReference {
-        Id: 7931064515559531250
-      }
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:smart"
-      Bool: false
-    }
-    Overrides {
-      Name: "ma:Shared_BaseMaterial:utile"
-      Float: 7.05952024
-    }
-  }
-  Collidable_v2 {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  Visible_v2 {
-    Value: "mc:evisibilitysetting:inheritfromparent"
-  }
-  CameraCollidable {
-    Value: "mc:ecollisionsetting:inheritfromparent"
-  }
-  EditorIndicatorVisibility {
-    Value: "mc:eindicatorvisibility:visiblewhenselected"
-  }
-  CoreMesh {
-    MeshAsset {
-      Id: 12095835209017042614
-    }
-    Teams {
-      IsTeamCollisionEnabled: true
-      IsEnemyCollisionEnabled: true
-    }
-    StaticMesh {
-      Physics {
-        Mass: 100
-        LinearDamping: 0.01
-      }
-      BoundsScale: 1
-    }
-  }
-  InstanceHistory {
-    SelfId: 17710142845419085668
-    SubobjectId: 16785930085032901673
-    InstanceId: 16162543083067837295
-    TemplateId: 15473037258273870077
-  }
-}
-Objects {
   Id: 10893929342191291785
   Name: "bow 1"
   Transform {
     Location {
       X: -520.14978
-      Y: 91.0915833
-      Z: 412.629822
+      Y: 91.0918
+      Z: 330
     }
     Rotation {
     }
@@ -2197,8 +2128,8 @@ Objects {
   Transform {
     Location {
       X: -603.789307
-      Y: 91.0915833
-      Z: 455.652039
+      Y: 91.0918
+      Z: 350
     }
     Rotation {
     }
@@ -3354,8 +3285,8 @@ Objects {
   Transform {
     Location {
       X: -1118.32117
-      Y: 91.0915833
-      Z: 435.824768
+      Y: 91.0918
+      Z: 350
     }
     Rotation {
     }
@@ -4861,8 +4792,8 @@ Objects {
   Transform {
     Location {
       X: -1424.49585
-      Y: 91.0915833
-      Z: 338.850769
+      Y: 91.0918
+      Z: 280
     }
     Rotation {
     }

@@ -53,15 +53,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12095835209017042614
-  Name: "Cube"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_cube_002"
-  }
-}
-Assets {
   Id: 11889841719945808699
   Name: "Metal Iron Rusted 02"
   PlatformAssetType: 2
@@ -95,15 +86,6 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "mi_metal_basic_001"
-  }
-}
-Assets {
-  Id: 7931064515559531250
-  Name: "Stone Foundation 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_stone_foundation_001_uv_ref"
   }
 }
 Assets {
