@@ -37,7 +37,9 @@ Objects {
   ChildIds: 8340272893672630034
   ChildIds: 419386420079066300
   ChildIds: 419353763798737719
+  ChildIds: 691136450134330502
   ChildIds: 12095930659134274874
+  ChildIds: 10523464411297884260
   UnregisteredParameters {
   }
   Collidable_v2 {
@@ -53,10 +55,67 @@ Objects {
   }
 }
 Objects {
+  Id: 10523464411297884260
+  Name: "Cube - Chamfered Small Polished"
+  Transform {
+    Location {
+      X: 7370.04883
+      Y: -1868.3457
+      Z: 1000
+    }
+    Rotation {
+      Roll: 180
+    }
+    Scale {
+      X: 140
+      Y: 140
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  UnregisteredParameters {
+    Overrides {
+      Name: "ma:Shared_BaseMaterial:id"
+      AssetReference {
+        Id: 3830888102854223075
+      }
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  CoreMesh {
+    MeshAsset {
+      Id: 5144490934100011827
+    }
+    Teams {
+      IsTeamCollisionEnabled: true
+      IsEnemyCollisionEnabled: true
+    }
+    StaticMesh {
+      Physics {
+        Mass: 100
+        LinearDamping: 0.01
+      }
+      BoundsScale: 1
+    }
+  }
+}
+Objects {
   Id: 12095930659134274874
   Name: "Menu_Player"
   Transform {
     Location {
+      Z: 1
     }
     Rotation {
     }
@@ -5528,13 +5587,47 @@ Objects {
   }
 }
 Objects {
+  Id: 691136450134330502
+  Name: "setgravity"
+  Transform {
+    Location {
+      Z: 1
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Script {
+    ScriptAsset {
+      Id: 13716790661270470180
+    }
+  }
+}
+Objects {
   Id: 419353763798737719
   Name: "Hidden Weapons"
   Transform {
     Location {
       X: -1950
       Y: 400
-      Z: -650
+      Z: 1
     }
     Rotation {
     }
@@ -5570,7 +5663,7 @@ Objects {
     Location {
       X: 2695.54443
       Y: -758.947
-      Z: -688.799805
+      Z: 1
     }
     Rotation {
     }
@@ -5699,7 +5792,7 @@ Objects {
     Location {
       X: -100
       Y: 4850
-      Z: -686.969299
+      Z: 1
     }
     Rotation {
     }
@@ -21581,7 +21674,7 @@ Objects {
     Location {
       X: 800
       Y: 4600
-      Z: -700
+      Z: 1
     }
     Scale {
       X: 1
@@ -23127,7 +23220,7 @@ Objects {
     Location {
       X: 150
       Y: 4300
-      Z: -750
+      Z: 1
     }
     Scale {
       X: 1
@@ -23178,6 +23271,12 @@ Objects {
           Name: "Name"
           String: "Combat Dependencies"
         }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: 1
+          }
+        }
       }
     }
     TemplateAsset {
@@ -23210,7 +23309,7 @@ Objects {
           Vector {
             X: -2150
             Y: -1100
-            Z: -800
+            Z: 1
           }
         }
         Overrides {
@@ -23237,7 +23336,7 @@ Objects {
     Location {
       X: 1100
       Y: 5750
-      Z: -950
+      Z: 1
     }
     Rotation {
     }
@@ -23279,7 +23378,7 @@ Objects {
     Location {
       X: -550
       Y: 4800
-      Z: -750
+      Z: 1
     }
     Scale {
       X: 1
@@ -23316,7 +23415,7 @@ Objects {
     Location {
       X: 300
       Y: 5000
-      Z: -750
+      Z: 1
     }
     Rotation {
     }
@@ -28881,7 +28980,7 @@ Objects {
     Location {
       X: -100
       Y: 5500
-      Z: -750
+      Z: 1
     }
     Scale {
       X: 1
@@ -28921,7 +29020,7 @@ Objects {
     Location {
       X: 750
       Y: 4950
-      Z: -650
+      Z: 1
     }
     Scale {
       X: 0.99999994
@@ -30353,6 +30452,18 @@ Objects {
   WantsNetworking: true
   TemplateInstance {
     ParameterOverrideMap {
+      key: 13471641576489486240
+      value {
+        Overrides {
+          Name: "Position"
+          Vector {
+            X: 39.9999962
+            Z: 5
+          }
+        }
+      }
+    }
+    ParameterOverrideMap {
       key: 14934994781472954733
       value {
         Overrides {
@@ -30362,7 +30473,7 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            Z: -450
+            Z: 5
           }
         }
       }
@@ -30594,9 +30705,7 @@ Objects {
   Name: "Overgrown Ruined Tower"
   Transform {
     Location {
-      X: -400
-      Y: -100
-      Z: -735.458496
+      Z: 50
     }
     Scale {
       X: 1
@@ -33914,7 +34023,7 @@ Objects {
     Location {
       X: -3.72210693
       Y: -133.675781
-      Z: 23.6174316
+      Z: 64.9960327
     }
     Rotation {
       Yaw: -81.5236206
@@ -33922,7 +34031,7 @@ Objects {
     Scale {
       X: 3.08139157
       Y: 3.08139157
-      Z: 5.84176302
+      Z: 3.74915147
     }
   }
   ParentId: 461799218240068853
@@ -41483,7 +41592,7 @@ Objects {
           Name: "Position"
           Vector {
             X: -2200
-            Z: -700
+            Z: 50
           }
         }
       }
@@ -41507,12 +41616,12 @@ Objects {
   Name: "Default Floor"
   Transform {
     Location {
-      Z: -785.458496
+      Z: 50
     }
     Rotation {
     }
     Scale {
-      X: 367
+      X: 314
       Y: 344
       Z: 1
     }
@@ -41692,6 +41801,7 @@ Objects {
   }
   ParentId: 4781671109827199097
   ChildIds: 13551641546322277000
+  ChildIds: 18032229785729280944
   ChildIds: 7155168770677928712
   ChildIds: 10505154200474359396
   UnregisteredParameters {
@@ -41894,6 +42004,40 @@ Objects {
   }
 }
 Objects {
+  Id: 18032229785729280944
+  Name: "Sky Overcast 01"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10005074784157121906
+  TemplateInstance {
+    ParameterOverrideMap {
+      key: 7630610834896796816
+      value {
+        Overrides {
+          Name: "Name"
+          String: "Sky Overcast 01"
+        }
+        Overrides {
+          Name: "Scale"
+          Vector {
+            X: 1
+            Y: 1
+            Z: 1
+          }
+        }
+      }
+    }
+    TemplateAsset {
+      Id: 5299223638247242516
+    }
+  }
+}
+Objects {
   Id: 13551641546322277000
   Name: "Sky Dome"
   Transform {
@@ -42033,7 +42177,7 @@ Objects {
     Location {
       X: 1650
       Y: -600
-      Z: -400
+      Z: 1
     }
     Rotation {
     }
@@ -42148,7 +42292,7 @@ Objects {
   Transform {
     Location {
       Y: -1050
-      Z: -200
+      Z: 1
     }
     Rotation {
     }
@@ -42262,6 +42406,9 @@ Objects {
   Name: "Spawn_Mode_team1"
   Transform {
     Location {
+      X: -3679.4585
+      Y: 810.374084
+      Z: 1
     }
     Rotation {
     }
