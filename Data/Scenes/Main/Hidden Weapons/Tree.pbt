@@ -3705,6 +3705,9 @@ Objects {
   Name: "Geo"
   Transform {
     Location {
+      X: 1426.8645
+      Y: 4514.50293
+      Z: 196.485413
     }
     Rotation {
     }
@@ -4614,7 +4617,8 @@ Objects {
   Name: "PickupTrigger"
   Transform {
     Location {
-      X: 36.1711121
+      X: 36.1711426
+      Z: 165.226547
     }
     Rotation {
     }
@@ -4988,6 +4992,9 @@ Objects {
   Name: "Geo"
   Transform {
     Location {
+      X: 2334.08398
+      Y: 5200.60693
+      Z: 383.928558
     }
     Rotation {
     }
@@ -6476,7 +6483,7 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
-      Z: 75.5384903
+      Z: 278.929718
     }
     Rotation {
     }
@@ -6522,7 +6529,7 @@ Objects {
   Name: "Hit Box"
   Transform {
     Location {
-      Z: 91.5370865
+      Z: 247.815247
     }
     Rotation {
       Yaw: 5.21765724e-05

@@ -3398,6 +3398,8 @@ Objects {
   Id: 47418098291662144
   Name: "Geo"
   Transform {
+    Location {
+    }
     Rotation {
     }
     Scale {
