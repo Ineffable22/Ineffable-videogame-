@@ -17,6 +17,8 @@ Objects {
   ChildIds: 8561623215998272542
   ChildIds: 9086936746104183945
   ChildIds: 8734113484432438156
+  ChildIds: 8217864499487870035
+  ChildIds: 6055817427805134676
   ChildIds: 10005074784157121906
   ChildIds: 14982843161775482339
   ChildIds: 12963881042042075370
@@ -23217,6 +23219,10 @@ Objects {
             Yaw: 75
           }
         }
+        Overrides {
+          Name: "cs:Team"
+          Int: 0
+        }
       }
     }
     TemplateAsset {
@@ -30352,6 +30358,12 @@ Objects {
         Overrides {
           Name: "Name"
           String: "Chinese Crossbow"
+        }
+        Overrides {
+          Name: "Position"
+          Vector {
+            Z: -450
+          }
         }
       }
     }
@@ -41476,6 +41488,15 @@ Objects {
         }
       }
     }
+    ParameterOverrideMap {
+      key: 18261561402360835620
+      value {
+        Overrides {
+          Name: "cs:Team"
+          Int: 0
+        }
+      }
+    }
     TemplateAsset {
       Id: 17090129455604917475
     }
@@ -42006,8 +42027,239 @@ Objects {
   }
 }
 Objects {
+  Id: 6055817427805134676
+  Name: "Spawn_Mode_team3"
+  Transform {
+    Location {
+      X: 1650
+      Y: -600
+      Z: -400
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 4843593846630366249
+  ChildIds: 14784074776021376132
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 14784074776021376132
+  Name: "Spawn Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6055817427805134676
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Settings {
+    RespawnSettings {
+      RespawnDelay: 2
+      RespawnMode_v2 {
+        Value: "mc:erespawnmode:inplace"
+      }
+      StartSpawned: true
+      SpawnMode {
+        Value: "mc:espawnmode:random"
+      }
+    }
+  }
+}
+Objects {
+  Id: 4843593846630366249
+  Name: "Spawn Point"
+  Transform {
+    Location {
+      Z: 115
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 6055817427805134676
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 3
+    PlayerScaleMultiplier: 1
+    SpawnKey: "p"
+    SpawnEffectsTemplate {
+      Id: 841534158063459245
+    }
+    ShouldDecrowdPlayers: true
+  }
+}
+Objects {
+  Id: 8217864499487870035
+  Name: "Spawn_Mode_team2"
+  Transform {
+    Location {
+      Y: -1050
+      Z: -200
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 4781671109827199097
+  ChildIds: 4639259913077879206
+  ChildIds: 4777772216037014808
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Folder {
+    IsGroup: true
+  }
+}
+Objects {
+  Id: 4777772216037014808
+  Name: "Spawn Settings"
+  Transform {
+    Location {
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8217864499487870035
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Settings {
+    RespawnSettings {
+      RespawnDelay: 2
+      RespawnMode_v2 {
+        Value: "mc:erespawnmode:inplace"
+      }
+      StartSpawned: true
+      SpawnMode {
+        Value: "mc:espawnmode:random"
+      }
+    }
+  }
+}
+Objects {
+  Id: 4639259913077879206
+  Name: "Spawn Point"
+  Transform {
+    Location {
+      Z: 115
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 8217864499487870035
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:alwaysvisible"
+  }
+  PlayerSpawnPoint {
+    TeamInt: 2
+    PlayerScaleMultiplier: 1
+    SpawnKey: "o"
+    SpawnEffectsTemplate {
+      Id: 841534158063459245
+    }
+    ShouldDecrowdPlayers: true
+  }
+}
+Objects {
   Id: 8734113484432438156
-  Name: "Spawn_Mode"
+  Name: "Spawn_Mode_team1"
   Transform {
     Location {
     }
@@ -42111,6 +42363,7 @@ Objects {
   PlayerSpawnPoint {
     TeamInt: 1
     PlayerScaleMultiplier: 1
+    SpawnKey: "i"
     SpawnEffectsTemplate {
       Id: 841534158063459245
     }
