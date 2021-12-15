@@ -118,6 +118,8 @@ Objects {
   Name: "Geo"
   Transform {
     Location {
+      X: 495.645752
+      Z: 182.21405
     }
     Rotation {
     }
@@ -3845,9 +3847,8 @@ Objects {
   Name: "Geo"
   Transform {
     Location {
-      X: 2334.08398
-      Y: 5200.60693
-      Z: 383.928558
+      X: 272.324677
+      Z: 157.645828
     }
     Rotation {
     }

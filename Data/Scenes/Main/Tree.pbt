@@ -15386,8 +15386,6 @@ Objects {
         Overrides {
           Name: "Position"
           Vector {
-            Y: 4970.98145
-            Z: -792.027466
           }
         }
       }
@@ -15941,9 +15939,8 @@ Objects {
     }
   }
   ParentId: 13410168907739836728
-  ChildIds: 13551641546322277000
-  ChildIds: 18032229785729280944
-  ChildIds: 7155168770677928712
+  ChildIds: 17256047270130509283
+  ChildIds: 5480881005811918900
   ChildIds: 10505154200474359396
   UnregisteredParameters {
   }
@@ -15990,14 +15987,16 @@ Objects {
       Name: "bp:Light Color"
       Color {
         R: 1
-        G: 0.955973327
-        B: 0.73791039
+        G: 1
+        B: 1
         A: 1
       }
     }
     Overrides {
       Name: "bp:Shape"
-      Int: 1
+      Enum {
+        Value: "mc:none:none"
+      }
     }
     Overrides {
       Name: "bp:Size"
@@ -16014,10 +16013,6 @@ Objects {
     Overrides {
       Name: "bp:Light Shaft Mask Darkness"
       Float: 0.5
-    }
-    Overrides {
-      Name: "bp:Intensity"
-      Float: 3.5
     }
     Overrides {
       Name: "bp:Sun Disc Color"
@@ -16069,10 +16064,12 @@ Objects {
   }
 }
 Objects {
-  Id: 7155168770677928712
-  Name: "Skylight"
+  Id: 5480881005811918900
+  Name: "Planet"
   Transform {
     Location {
+      Y: -2027.37537
+      Z: -451.442261
     }
     Rotation {
     }
@@ -16085,54 +16082,207 @@ Objects {
   ParentId: 10005074784157121906
   UnregisteredParameters {
     Overrides {
-      Name: "bp:Index"
-      Int: 3
+      Name: "bp:Distance"
+      Float: 8
     }
     Overrides {
-      Name: "bp:Occlusion Contrast"
-      Float: 0
+      Name: "bp:Scale"
+      Float: 10
+    }
+    Overrides {
+      Name: "bp:Color"
+      Color {
+        R: 0.230000019
+        B: 0.0411257818
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Planet Appearance"
+      Enum {
+        Value: "mc:eplanetaryappearance:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Cloud Appearance"
+      Enum {
+        Value: "mc:eplanetcloudappearance:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights Appearance"
+      Enum {
+        Value: "mc:edarksidelights:1"
+      }
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights Tint"
+      Color {
+        R: 0.820000052
+        G: 3.91006495e-07
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Dark Side Lights Transition Offset"
+      Float: 2
+    }
+    Overrides {
+      Name: "bp:Atmosphere Color"
+      Color {
+        R: 1
+        G: 1
+        B: 1
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Water Color"
+      Color {
+        R: 0.0380132049
+        G: 0.409999967
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Use Sun Direction for Light Direction"
+      Bool: true
+    }
+    Overrides {
+      Name: "bp:Planet Rotation"
+      Vector {
+      }
+    }
+    Overrides {
+      Name: "bp:Brightness"
+      Float: 2
+    }
+    Overrides {
+      Name: "bp:Cloud Color"
+      Color {
+        R: 0.89
+        B: 0.884105682
+        A: 1
+      }
+    }
+    Overrides {
+      Name: "bp:Specular Brightness"
+      Float: -1
+    }
+    Overrides {
+      Name: "bp:Rim Brightness"
+      Float: -1
+    }
+    Overrides {
+      Name: "bp:Rim Power"
+      Float: 1
+    }
+    Overrides {
+      Name: "bp:Atmosphere Hardness"
+      Float: 1.49758172
+    }
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  EditorIndicatorVisibility {
+    Value: "mc:eindicatorvisibility:visiblewhenselected"
+  }
+  Blueprint {
+    BlueprintAsset {
+      Id: 18441810659176357459
+    }
+    TeamSettings {
+    }
+  }
+}
+Objects {
+  Id: 17256047270130509283
+  Name: "Sky Overcast 01"
+  Transform {
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 10005074784157121906
+  ChildIds: 12839857534449233322
+  ChildIds: 6568767143175420843
+  UnregisteredParameters {
+  }
+  Collidable_v2 {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Visible_v2 {
+    Value: "mc:evisibilitysetting:inheritfromparent"
+  }
+  CameraCollidable {
+    Value: "mc:ecollisionsetting:inheritfromparent"
+  }
+  Folder {
+    IsGroup: true
+  }
+  InstanceHistory {
+    SelfId: 17256047270130509283
+    SubobjectId: 7630610834896796816
+    InstanceId: 18032229785729280944
+    TemplateId: 5299223638247242516
+    WasRoot: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+}
+Objects {
+  Id: 6568767143175420843
+  Name: "Skylight"
+  Transform {
+    Location {
+      X: 250
+      Y: 300
+    }
+    Rotation {
+    }
+    Scale {
+      X: 1
+      Y: 1
+      Z: 1
+    }
+  }
+  ParentId: 17256047270130509283
+  UnregisteredParameters {
+    Overrides {
+      Name: "bp:Index"
+      Int: 13
     }
     Overrides {
       Name: "bp:Intensity"
-      Float: 3
+      Float: 0.5
     }
     Overrides {
-      Name: "bp:Lower Hemisphere Color"
-      Color {
-        R: 0.0666259378
-        G: 0.0307134502
-        A: 1
+      Name: "bp:Ambient Image"
+      Enum {
+        Value: "mc:eambientcubemapssmall:16"
       }
     }
     Overrides {
-      Name: "bp:Occlusion Tint"
-      Color {
-        R: 0.0274509825
-        G: 0.0274509825
-        B: 0.0392156877
-        A: 1
-      }
-    }
-    Overrides {
-      Name: "bp:Occlusion Exponent"
+      Name: "bp:Blend Amount"
       Float: 0.4
     }
     Overrides {
       Name: "bp:Cast Shadows"
-      Bool: true
+      Bool: false
     }
     Overrides {
       Name: "bp:Cast Volumetric Shadows"
       Bool: false
-    }
-    Overrides {
-      Name: "bp:Tint Color"
-      Color {
-        R: 0.502886474
-        G: 0.48514995
-        B: 0.752942204
-        A: 1
-      }
     }
   }
   Collidable_v2 {
@@ -16149,54 +16299,28 @@ Objects {
       Id: 11515840070784317904
     }
   }
-  NetworkRelevanceDistance {
-    Value: "mc:eproxyrelevance:critical"
-  }
-}
-Objects {
-  Id: 18032229785729280944
-  Name: "Sky Overcast 01"
-  Transform {
-    Scale {
-      X: 1
-      Y: 1
-      Z: 1
-    }
-  }
-  ParentId: 10005074784157121906
-  TemplateInstance {
-    ParameterOverrideMap {
-      key: 7630610834896796816
-      value {
-        Overrides {
-          Name: "Name"
-          String: "Sky Overcast 01"
-        }
-        Overrides {
-          Name: "Scale"
-          Vector {
-            X: 1
-            Y: 1
-            Z: 1
-          }
-        }
-      }
-    }
-    TemplateAsset {
-      Id: 5299223638247242516
-    }
+  InstanceHistory {
+    SelfId: 6568767143175420843
+    SubobjectId: 15975492017228948184
+    InstanceId: 18032229785729280944
+    TemplateId: 5299223638247242516
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
-  Id: 13551641546322277000
-  Name: "Sky Dome"
+  Id: 12839857534449233322
+  Name: "Sun Light"
   Transform {
     Location {
+      X: -50
+      Z: -257.470764
     }
     Rotation {
+      Pitch: -31.4812622
+      Yaw: -0.23135376
+      Roll: -12.5778198
     }
     Scale {
       X: 1
@@ -16204,108 +16328,80 @@ Objects {
       Z: 1
     }
   }
-  ParentId: 10005074784157121906
+  ParentId: 17256047270130509283
   UnregisteredParameters {
     Overrides {
-      Name: "bp:Zenith Color"
-      Color {
-        R: 0.0243181027
-        G: 0.0633459464
-        B: 0.212230757
-        A: 0.886000037
-      }
+      Name: "bp:Intensity"
+      Float: 0.5
     }
     Overrides {
-      Name: "bp:Horizon Color"
+      Name: "bp:Light Color"
       Color {
-        R: 0.489468127
-        G: 0.480969489
-        B: 0.623960376
-        A: 0.895000041
-      }
-    }
-    Overrides {
-      Name: "bp:Haze Color"
-      Color {
-        R: 0.590618849
-        G: 0.590618849
-        B: 0.701101899
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
     Overrides {
-      Name: "bp:Use Sun Color for Cloud Color"
+      Name: "bp:Light Shaft Bloom"
       Bool: false
     }
     Overrides {
-      Name: "bp:Cloud Ambient Brightness"
-      Float: 3
+      Name: "bp:Light Shaft Bloom Scale"
+      Float: 2
     }
     Overrides {
-      Name: "bp:Cloud Rim Brightness"
-      Float: 50
+      Name: "bp:Light Shaft Bloom Threshold"
+      Float: 0.5
     }
     Overrides {
-      Name: "bp:Cloud Opacity"
-      Float: 0
-    }
-    Overrides {
-      Name: "bp:Cloud Ambient Color"
+      Name: "bp:Light Shaft Bloom Tint"
       Color {
-        R: 2
-        G: 2
-        B: 2
+        R: 0.53
+        G: 0.87860918
+        B: 1
         A: 1
       }
     }
     Overrides {
-      Name: "bp:Cloud Color"
+      Name: "bp:Use Temperature"
+      Bool: false
+    }
+    Overrides {
+      Name: "bp:Sun Disc Color"
       Color {
-        R: 2
-        G: 2
-        B: 2
+        R: 1
+        G: 1
+        B: 1
         A: 1
       }
     }
     Overrides {
-      Name: "bp:Cloud Shape"
-      Int: 4
+      Name: "bp:Size"
+      Float: 10
     }
     Overrides {
-      Name: "bp:Cloud Lighting Brightness"
-      Float: 1
+      Name: "bp:Shape"
+      Enum {
+        Value: "mc:esundiscshapes:1"
+      }
     }
     Overrides {
-      Name: "bp:Cloud Wisp Opacity"
-      Float: 0.4
-    }
-    Overrides {
-      Name: "bp:Cloud Speed"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Brightness"
-      Float: 1
-    }
-    Overrides {
-      Name: "bp:Background Clouds"
+      Name: "bp:Draw Sun"
       Bool: true
     }
     Overrides {
-      Name: "bp:High Cloud Index"
-      Int: 2
+      Name: "bp:Cast Shadows"
+      Bool: true
     }
     Overrides {
-      Name: "bp:High Cloud Opacity"
-      Float: 0
+      Name: "bp:Cast Volumetric Shadows"
+      Bool: false
     }
     Overrides {
-      Name: "bp:High Cloud Noise Amount"
-      Float: 0.1
-    }
-    Overrides {
-      Name: "bp:High Cloud Noise Scale"
-      Float: 0.2
+      Name: "bp:Indirect Lighting Intensity"
+      Float: 1
     }
   }
   Collidable_v2 {
@@ -16319,8 +16415,14 @@ Objects {
   }
   Blueprint {
     BlueprintAsset {
-      Id: 7887238662729938253
+      Id: 16910278292812118833
     }
+  }
+  InstanceHistory {
+    SelfId: 12839857534449233322
+    SubobjectId: 3795687685042435289
+    InstanceId: 18032229785729280944
+    TemplateId: 5299223638247242516
   }
   NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"

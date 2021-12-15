@@ -127,6 +127,7 @@ ObjectSettings {
   ObjectStates {
     key: 691136450134330502
     value {
+      IsLocked: true
     }
   }
   ObjectStates {
@@ -182,6 +183,7 @@ ObjectSettings {
   ObjectStates {
     key: 941715461869357456
     value {
+      IsHidden: true
     }
   }
   ObjectStates {
@@ -745,6 +747,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 3628348310374098082
+    value {
+    }
+  }
+  ObjectStates {
     key: 3638982236587903131
     value {
     }
@@ -1075,6 +1082,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 5480881005811918900
+    value {
+    }
+  }
+  ObjectStates {
     key: 5519817032237741471
     value {
     }
@@ -1266,6 +1278,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 6510167503165545818
+    value {
+    }
+  }
+  ObjectStates {
+    key: 6568767143175420843
     value {
     }
   }
@@ -1715,6 +1732,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 8824976116884058926
+    value {
+    }
+  }
+  ObjectStates {
     key: 8876733102932865485
     value {
     }
@@ -1877,6 +1899,7 @@ ObjectSettings {
   ObjectStates {
     key: 9672071008346495122
     value {
+      IsHidden: true
     }
   }
   ObjectStates {
@@ -2570,6 +2593,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 12839857534449233322
+    value {
+    }
+  }
+  ObjectStates {
     key: 12905308707601286878
     value {
     }
@@ -2612,6 +2640,7 @@ ObjectSettings {
   ObjectStates {
     key: 13173027062423403764
     value {
+      IsLocked: true
     }
   }
   ObjectStates {
@@ -2682,7 +2711,6 @@ ObjectSettings {
   ObjectStates {
     key: 13410168907739836728
     value {
-      IsLocked: true
     }
   }
   ObjectStates {
@@ -2987,6 +3015,11 @@ ObjectSettings {
   }
   ObjectStates {
     key: 14865635191992959497
+    value {
+    }
+  }
+  ObjectStates {
+    key: 14871349042666937684
     value {
     }
   }
@@ -3472,6 +3505,11 @@ ObjectSettings {
     }
   }
   ObjectStates {
+    key: 17256047270130509283
+    value {
+    }
+  }
+  ObjectStates {
     key: 17272974301884770962
     value {
     }
@@ -3499,6 +3537,12 @@ ObjectSettings {
   ObjectStates {
     key: 17376339882038514565
     value {
+    }
+  }
+  ObjectStates {
+    key: 17388331290129954996
+    value {
+      IsHidden: true
     }
   }
   ObjectStates {

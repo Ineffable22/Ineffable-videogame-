@@ -1,4 +1,13 @@
 Assets {
+  Id: 18441810659176357459
+  Name: "Planet"
+  PlatformAssetType: 6
+  PrimaryAsset {
+    AssetType: "BlueprintAssetRef"
+    AssetId: "CORESKY_Planet"
+  }
+}
+Assets {
   Id: 17798409052959246679
   Name: "Modern Weapon - Grip 03"
   PlatformAssetType: 1
@@ -194,15 +203,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_scf_ship_wing_small_001_ref"
-  }
-}
-Assets {
-  Id: 7887238662729938253
-  Name: "Sky Dome"
-  PlatformAssetType: 6
-  PrimaryAsset {
-    AssetType: "BlueprintAssetRef"
-    AssetId: "CORESKY_Sky"
   }
 }
 Assets {
