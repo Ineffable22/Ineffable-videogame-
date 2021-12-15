@@ -51,7 +51,7 @@ Objects {
   Transform {
     Location {
       X: -520.14978
-      Y: 91.0918
+      Y: 372.106445
       Z: 330
     }
     Rotation {
@@ -305,14 +305,14 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
-      X: 40.0000038
-      Z: 0.090065
+      X: 40
+      Z: 0.090057373
     }
     Rotation {
     }
     Scale {
-      X: 1.49999988
-      Y: 1
+      X: 1.49999976
+      Y: 0.99999994
       Z: 1
     }
   }
@@ -667,9 +667,9 @@ Objects {
   Name: "Fantasy Crossbow Bow 01"
   Transform {
     Location {
-      X: 50.2465096
-      Y: -1.12876892
-      Z: -35.8282242
+      X: 50.24646
+      Y: -1.12890625
+      Z: -35.8282166
     }
     Rotation {
       Pitch: -1.81237793
@@ -745,8 +745,7 @@ Objects {
   Name: "Fantasy Sword Grip 01"
   Transform {
     Location {
-      X: 38.1561127
-      Y: -7.62939453e-06
+      X: 38.1561279
       Z: -4.89578247
     }
     Rotation {
@@ -802,8 +801,8 @@ Objects {
   Transform {
     Location {
       X: 44.0802
-      Y: -1.00709534
-      Z: 82.8959885
+      Y: -1.00732422
+      Z: 82.8959961
     }
     Rotation {
       Pitch: -64.1604309
@@ -867,8 +866,8 @@ Objects {
   Transform {
     Location {
       X: 38.8331299
-      Y: -1.00709534
-      Z: 81.5478897
+      Y: -1.00732422
+      Z: 81.5478821
     }
     Rotation {
       Pitch: 8.80907249
@@ -930,8 +929,8 @@ Objects {
   Transform {
     Location {
       X: 38.3441162
-      Y: -1.00709534
-      Z: 82.2090225
+      Y: -1.00732422
+      Z: 82.2090149
     }
     Rotation {
       Pitch: 8.80907249
@@ -992,9 +991,9 @@ Objects {
   Name: "Ring - Thick"
   Transform {
     Location {
-      X: 37.9749146
-      Y: -1.00709534
-      Z: 83.2942
+      X: 37.9748535
+      Y: -1.00732422
+      Z: 83.2941895
     }
     Rotation {
       Pitch: 8.80907249
@@ -1056,11 +1055,11 @@ Objects {
   Transform {
     Location {
       X: 42.9160156
-      Y: -1.00709534
+      Y: -1.00732422
       Z: -67.6624756
     }
     Rotation {
-      Pitch: -27.67766
+      Pitch: -27.6776733
       Yaw: 179.388077
     }
     Scale {
@@ -1120,11 +1119,11 @@ Objects {
   Transform {
     Location {
       X: 38.2442627
-      Y: -1.00709534
-      Z: -63.7119
+      Y: -1.00732422
+      Z: -63.7119141
     }
     Rotation {
-      Pitch: -27.6776676
+      Pitch: -27.6776733
     }
     Scale {
       X: 0.067695789
@@ -1183,11 +1182,11 @@ Objects {
   Transform {
     Location {
       X: 37.895874
-      Y: -1.00709534
+      Y: -1.00732422
       Z: -64.8039551
     }
     Rotation {
-      Pitch: -27.6776676
+      Pitch: -27.6776733
     }
     Scale {
       X: 0.067695789
@@ -1246,11 +1245,11 @@ Objects {
   Transform {
     Location {
       X: 37.895874
-      Y: -1.00709534
+      Y: -1.00732422
       Z: -65.6262512
     }
     Rotation {
-      Pitch: -27.6776676
+      Pitch: -27.6776733
     }
     Scale {
       X: 0.067695789
@@ -1308,9 +1307,9 @@ Objects {
   Name: "part3"
   Transform {
     Location {
-      X: 19.1365356
-      Y: 0.275291443
-      Z: -29.7047577
+      X: 19.1364746
+      Y: 0.275390625
+      Z: -29.7047729
     }
     Rotation {
       Pitch: 25.7191238
@@ -1386,14 +1385,14 @@ Objects {
   Name: "part2"
   Transform {
     Location {
-      X: 19.1365356
-      Y: 0.864845276
+      X: 19.1364746
+      Y: 0.864746094
       Z: 47.3602295
     }
     Rotation {
-      Pitch: -25.7293968
+      Pitch: -25.7294
       Yaw: 1.26657259
-      Roll: -2.9154675
+      Roll: -2.91546631
     }
     Scale {
       X: 0.0139721846
@@ -1464,9 +1463,9 @@ Objects {
   Name: "Fantasy Crossbow Bow 01"
   Transform {
     Location {
-      X: 48.7145348
-      Y: -1.12875366
-      Z: 58.3744965
+      X: 48.7144775
+      Y: -1.12890625
+      Z: 58.3745117
     }
     Rotation {
       Pitch: 3.82773352
@@ -1543,11 +1542,11 @@ Objects {
   Transform {
     Location {
       X: 0.920288086
-      Y: 2.18833923
+      Y: 2.18847656
       Z: 8.78671265
     }
     Rotation {
-      Roll: -89.9999847
+      Roll: -90
     }
     Scale {
       X: 1.49072385
@@ -1617,8 +1616,8 @@ Objects {
   Transform {
     Location {
       X: 0.785644531
-      Y: 2.85024261
-      Z: 9.05171204
+      Y: 2.85009766
+      Z: 9.05169678
     }
     Rotation {
     }
@@ -3334,6 +3333,7 @@ Objects {
   Name: "Hitbox Trigger"
   Transform {
     Location {
+      Y: 281.014648
     }
     Rotation {
     }
@@ -3408,6 +3408,7 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
+      Y: 281.014648
       Z: 14.9999695
     }
     Rotation {
@@ -3661,6 +3662,7 @@ Objects {
   Name: "Fantasy Axe Base 01"
   Transform {
     Location {
+      Y: 221.093582
       Z: 185.881195
     }
     Rotation {
@@ -3726,13 +3728,14 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
-      Z: 174.413147
+      Y: 221.093582
+      Z: 174.413132
     }
     Rotation {
     }
     Scale {
-      X: 0.0560932606
-      Y: 0.0560932606
+      X: 0.0560932569
+      Y: 0.0560932569
       Z: 0.261840224
     }
   }
@@ -3792,9 +3795,9 @@ Objects {
   Name: "Fantasy Axe Blade 01"
   Transform {
     Location {
-      X: 1.20181012
-      Y: -2.08616257e-07
-      Z: 181.304733
+      X: 1.20187378
+      Y: 221.09375
+      Z: 181.304718
     }
     Rotation {
       Yaw: -179.999969
@@ -3860,7 +3863,8 @@ Objects {
   Name: "Fantasy Axe Blade 01"
   Transform {
     Location {
-      X: 1.20181417
+      X: 1.2018106
+      Y: 221.093582
       Z: 170.404037
     }
     Rotation {
@@ -3927,9 +3931,9 @@ Objects {
   Name: "Fantasy Sword Grip 01"
   Transform {
     Location {
-      X: -0.0802612379
-      Y: 0.0518341176
-      Z: 61.7570076
+      X: -0.0802423581
+      Y: 221.145447
+      Z: 61.7570152
     }
     Rotation {
     }
@@ -3996,9 +4000,9 @@ Objects {
   Name: "Fantasy Staff Grip 01"
   Transform {
     Location {
-      X: 0.0706787109
-      Y: -0.0129013062
-      Z: -24.982296
+      X: 0.0706862658
+      Y: 221.080521
+      Z: -24.9822903
     }
     Rotation {
     }
@@ -4915,6 +4919,7 @@ Objects {
   Name: "Hitbox Trigger"
   Transform {
     Location {
+      Y: 281.014648
     }
     Rotation {
     }
@@ -4989,6 +4994,7 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
+      Y: 281.014648
       Z: 10
     }
     Rotation {
@@ -5211,7 +5217,8 @@ Objects {
   Name: "Fantasy Pommel 03"
   Transform {
     Location {
-      Z: 2.4011879
+      Y: 281.014648
+      Z: 2.40118408
     }
     Rotation {
     }
@@ -5265,6 +5272,7 @@ Objects {
   Name: "Hatchet - Handle"
   Transform {
     Location {
+      Y: 281.014648
     }
     Rotation {
     }
@@ -5337,8 +5345,9 @@ Objects {
   Name: "Hatchet - Blade"
   Transform {
     Location {
-      X: 3.34695053
-      Z: 50.9940109
+      X: 3.34695435
+      Y: 281.014648
+      Z: 50.9940186
     }
     Rotation {
       Pitch: 0.118073471
@@ -5420,7 +5429,8 @@ Objects {
   Name: "Fantasy Axe Base 01"
   Transform {
     Location {
-      Z: 40.9940109
+      Y: 281.014648
+      Z: 40.9940186
     }
     Rotation {
       Yaw: 179.999878
@@ -6322,6 +6332,7 @@ Objects {
   Name: "Hitbox Trigger"
   Transform {
     Location {
+      Y: 281.014648
     }
     Rotation {
     }
@@ -6396,6 +6407,7 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
+      Y: 281.014648
       Z: 14.9999695
     }
     Rotation {

@@ -5,10 +5,11 @@ Objects {
   Name: "Cylinder - Chamfered Small Polished"
   Transform {
     Location {
+      Y: 281.014648
     }
     Rotation {
       Pitch: 4.09811328e-05
-      Yaw: -20.0001183
+      Yaw: -20.0001221
       Roll: 2.37455806e-05
     }
     Scale {
@@ -77,7 +78,8 @@ Objects {
   Name: "Fantasy Sword Guard 01"
   Transform {
     Location {
-      Z: 16.8039398
+      Y: 281.014648
+      Z: 16.8039551
     }
     Rotation {
     }
@@ -142,6 +144,7 @@ Objects {
   Name: "Fantasy Sword Blade 04"
   Transform {
     Location {
+      Y: 281.014648
       Z: 24.2753
     }
     Rotation {

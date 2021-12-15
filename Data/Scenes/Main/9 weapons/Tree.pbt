@@ -5,8 +5,8 @@ Objects {
   Name: "BaseBall Bat"
   Transform {
     Location {
-      X: 682.433044
-      Y: -962.632812
+      X: 682.433
+      Y: -681.618164
       Z: 127.688522
     }
     Rotation {
@@ -120,7 +120,7 @@ Objects {
   Name: "Weapon Guide 2hand_sword"
   Transform {
     Location {
-      Z: 21.3877907
+      Z: 21.3877869
     }
     Rotation {
     }
@@ -245,7 +245,7 @@ Objects {
   Name: "Baseball Bat"
   Transform {
     Location {
-      X: -1.48394775
+      X: -1.48388672
       Y: -0.516601562
       Z: 5.95724487
     }
@@ -520,7 +520,7 @@ Objects {
   Transform {
     Location {
       X: -14.1063232
-      Y: 1.89398193
+      Y: 1.89404297
       Z: 69.2173309
     }
     Rotation {
@@ -801,8 +801,8 @@ Objects {
   Name: "Manticore Logo"
   Transform {
     Location {
-      X: -0.0647939
-      Y: 10.5579615
+      X: -68.7167358
+      Y: 199.177658
       Z: 11.8816385
     }
     Rotation {
@@ -810,9 +810,9 @@ Objects {
       Roll: 89.9999542
     }
     Scale {
-      X: 0.0658660159
-      Y: 0.0658660159
-      Z: 0.0658660159
+      X: 0.0658660457
+      Y: 0.0658660457
+      Z: 0.0658660457
     }
   }
   ParentId: 788953019970758547
@@ -920,8 +920,8 @@ Objects {
   Name: "Ember Volume VFX"
   Transform {
     Location {
-      X: 0.225300923
-      Y: -0.142407238
+      X: -68.4265137
+      Y: 188.477066
       Z: 12.6745615
     }
     Rotation {
@@ -930,9 +930,9 @@ Objects {
       Roll: -3.05175781e-05
     }
     Scale {
-      X: 0.900000095
-      Y: 0.400000036
-      Z: 0.5
+      X: 0.900000572
+      Y: 0.400000304
+      Z: 0.50000006
     }
   }
   ParentId: 788953019970758547
@@ -1009,16 +1009,18 @@ Objects {
   Name: "Point Light"
   Transform {
     Location {
+      X: -68.6519
+      Y: 188.619583
       Z: 10.7142868
     }
     Rotation {
       Pitch: 4.09811328e-05
-      Yaw: -0.000122070291
+      Yaw: -0.000122070312
     }
     Scale {
-      X: 0.714285791
-      Y: 0.714285791
-      Z: 0.714285791
+      X: 0.714285851
+      Y: 0.714285851
+      Z: 0.714285851
     }
   }
   ParentId: 788953019970758547
@@ -1073,8 +1075,8 @@ Objects {
   Name: "Decal Fantasy Carved 01"
   Transform {
     Location {
-      X: -23.6704388
-      Y: -0.104021356
+      X: -92.3223724
+      Y: 188.515579
       Z: 12.5233145
     }
     Rotation {
@@ -1083,9 +1085,9 @@ Objects {
       Roll: 86.8382721
     }
     Scale {
-      X: 0.0651838332
-      Y: 0.0651838332
-      Z: 0.0651838332
+      X: 0.065183863
+      Y: 0.065183863
+      Z: 0.065183863
     }
   }
   ParentId: 788953019970758547
@@ -1134,8 +1136,8 @@ Objects {
   Name: "Decal Fantasy Carved 01"
   Transform {
     Location {
-      X: 26.2275066
-      Y: 0.586111963
+      X: -42.4243279
+      Y: 189.205566
       Z: 12.5232058
     }
     Rotation {
@@ -1144,9 +1146,9 @@ Objects {
       Roll: 89.9999542
     }
     Scale {
-      X: 0.0651838332
-      Y: 0.0651838332
-      Z: 0.0651838332
+      X: 0.065183863
+      Y: 0.065183863
+      Z: 0.065183863
     }
   }
   ParentId: 788953019970758547
@@ -1195,8 +1197,8 @@ Objects {
   Name: "Manticore Logo"
   Transform {
     Location {
-      X: -0.0647231564
-      Y: -10.7104664
+      X: -68.7165833
+      Y: 177.908981
       Z: 11.88165
     }
     Rotation {
@@ -1204,9 +1206,9 @@ Objects {
       Roll: 90
     }
     Scale {
-      X: 0.0658659935
-      Y: 0.0658659935
-      Z: 0.0658659935
+      X: 0.0658660233
+      Y: 0.0658660233
+      Z: 0.0658660233
     }
   }
   ParentId: 788953019970758547
@@ -1309,8 +1311,8 @@ Objects {
   Name: "Reinforced Crate 150cm"
   Transform {
     Location {
-      X: 1.09606075
-      Y: 11.4158421
+      X: -67.5558624
+      Y: 200.035538
       Z: 11.5738039
     }
     Rotation {
@@ -1319,9 +1321,9 @@ Objects {
       Roll: -89.9999084
     }
     Scale {
-      X: 0.362036198
-      Y: 0.202314302
-      Z: 0.149073705
+      X: 0.362036437
+      Y: 0.202314422
+      Z: 0.149073794
     }
   }
   ParentId: 788953019970758547
@@ -1425,12 +1427,12 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: 5.05749512
-      Y: 0.000122070312
-      Z: 0.544296265
+      X: -63.5944214
+      Y: 188.619766
+      Z: 0.544291854
     }
     Rotation {
-      Pitch: -0.0254356228
+      Pitch: -0.0254211426
       Yaw: -88.9033813
       Roll: 92.5945511
     }
@@ -1491,12 +1493,12 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: -5.05749512
-      Y: -0.000122070312
+      X: -73.7093735
+      Y: 188.619324
     }
     Rotation {
       Pitch: 0.0201422274
-      Yaw: -88.8917313
+      Yaw: -88.8917236
       Roll: 87.7879791
     }
     Scale {
@@ -1556,13 +1558,13 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: -15.1723633
-      Y: -0.000427246094
-      Z: 1.14962769
+      X: -83.8241653
+      Y: 188.618988
+      Z: 1.14962983
     }
     Rotation {
-      Pitch: -0.104146719
-      Yaw: -88.7336655
+      Pitch: -0.104156494
+      Yaw: -88.7336731
       Roll: 100.175125
     }
     Scale {
@@ -1622,13 +1624,13 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: 15.1722412
-      Y: 0.00048828125
-      Z: 0.465164185
+      X: -53.4797134
+      Y: 188.620087
+      Z: 0.465164155
     }
     Rotation {
-      Pitch: -0.0635480732
-      Yaw: -88.9015656
+      Pitch: -0.0635376
+      Yaw: -88.9015503
       Roll: 95.2261658
     }
     Scale {
@@ -1734,13 +1736,13 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: 15.1722412
-      Y: 0.000518798828
-      Z: 0.345779419
+      X: -53.4796333
+      Y: 188.620117
+      Z: 0.345775038
     }
     Rotation {
-      Pitch: -0.0629811734
-      Yaw: -88.9018784
+      Pitch: -0.0629882812
+      Yaw: -88.901886
       Roll: 90.4930725
     }
     Scale {
@@ -1800,13 +1802,13 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: 5.05767822
-      Y: 3.05175781e-05
-      Z: 0.813919067
+      X: -63.5942192
+      Y: 188.619461
+      Z: 0.813914657
     }
     Rotation {
-      Pitch: -0.025210226
-      Yaw: -88.9132309
+      Pitch: -0.0252075195
+      Yaw: -88.9132385
       Roll: 92.5951233
     }
     Scale {
@@ -1866,13 +1868,13 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: -5.05725098
-      Y: -0.000244140625
-      Z: 0.308258057
+      X: -73.7092133
+      Y: 188.6194
+      Z: 0.308260232
     }
     Rotation {
       Pitch: 0.019739246
-      Yaw: -88.9210892
+      Yaw: -88.9210815
       Roll: 87.7871857
     }
     Scale {
@@ -1932,12 +1934,12 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: -15.1725464
-      Y: -0.000335693359
+      X: -83.8244476
+      Y: 188.619247
     }
     Rotation {
-      Pitch: -0.10136
-      Yaw: -88.7151718
+      Pitch: -0.101348877
+      Yaw: -88.7151794
       Roll: 89.8651581
     }
     Scale {
@@ -2043,13 +2045,13 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: 15.1726074
-      Y: 0.000305175781
-      Z: 0.00238037109
+      X: -53.4792633
+      Y: 188.619873
+      Z: 0.00237601134
     }
     Rotation {
-      Pitch: -0.0563968681
-      Yaw: -89.026535
+      Pitch: -0.0563964844
+      Yaw: -89.0265503
       Roll: 95.2375946
     }
     Scale {
@@ -2109,13 +2111,13 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: 5.05761719
-      Y: 6.10351562e-05
-      Z: 0.209442139
+      X: -63.5942192
+      Y: 188.619461
+      Z: 0.209437773
     }
     Rotation {
-      Pitch: -0.0228264909
-      Yaw: -89.0088654
+      Pitch: -0.0228271484
+      Yaw: -89.0088501
       Roll: 91.8557358
     }
     Scale {
@@ -2175,12 +2177,12 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: -5.05743408
-      Y: -0.000122070312
+      X: -73.7092896
+      Y: 188.61937
     }
     Rotation {
       Pitch: 0.0181478113
-      Yaw: -89.0178909
+      Yaw: -89.0178833
       Roll: 87.783638
     }
     Scale {
@@ -2240,12 +2242,12 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: -15.1728516
-      Y: -0.000274658203
-      Z: 0.220336914
+      X: -83.8246918
+      Y: 188.619156
+      Z: 0.220336899
     }
     Rotation {
-      Pitch: -0.0994065702
+      Pitch: -0.099395752
       Yaw: -88.7636108
       Roll: 91.341156
     }
@@ -2353,12 +2355,12 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: 12.6442871
-      Y: 0.000183105469
-      Z: 3.05175781e-05
+      X: -56.0076103
+      Y: 188.61972
+      Z: 3.26974041e-05
     }
     Rotation {
-      Pitch: -0.0360702276
+      Pitch: -0.0360717773
       Yaw: -89.3821716
       Roll: 95.2702789
     }
@@ -2419,13 +2421,13 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: 22.7597656
-      Y: 0.000366210938
-      Z: 4.57763672e-05
+      X: -45.892128
+      Y: 188.619965
+      Z: 4.35965376e-05
     }
     Rotation {
       Pitch: 6.83018879e-05
-      Yaw: -90.0001
+      Yaw: -90.0000916
       Roll: -90
     }
     Scale {
@@ -2485,12 +2487,12 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: 2.52893066
-      Y: -6.10351562e-05
-      Z: 1.52587891e-05
+      X: -66.123024
+      Y: 188.619522
+      Z: 1.08991344e-05
     }
     Rotation {
-      Pitch: -0.0143570565
+      Pitch: -0.0143432617
       Yaw: -89.3700256
       Roll: 92.6167
     }
@@ -2551,8 +2553,8 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: -7.58660889
-      Y: -0.000122070312
+      X: -76.2384186
+      Y: 188.619308
     }
     Rotation {
       Pitch: 0.0124992458
@@ -2616,13 +2618,13 @@ Objects {
   Name: "Spiral"
   Transform {
     Location {
-      X: -17.7019653
-      Y: -0.000305175781
-      Z: 0.559616089
+      X: -86.3538208
+      Y: 188.619095
+      Z: 0.559616
     }
     Rotation {
-      Pitch: -0.072447814
-      Yaw: -89.1291
+      Pitch: -0.0724487305
+      Yaw: -89.1290894
       Roll: 100.243439
     }
     Scale {
@@ -2734,8 +2736,9 @@ Objects {
   Name: "Cylinder - Chamfered Small Polished"
   Transform {
     Location {
-      Y: 339.999146
-      Z: 14.9997559
+      X: -902.630127
+      Y: 340.003723
+      Z: -2464.94043
     }
     Rotation {
       Roll: 89.9999313
@@ -2810,15 +2813,16 @@ Objects {
   Name: "Cylinder - Chamfered Small Polished"
   Transform {
     Location {
-      Y: -170.000244
-      Z: 14.9998169
+      X: -902.630493
+      Y: -169.994843
+      Z: -2464.94116
     }
     Rotation {
       Roll: 89.9999313
     }
     Scale {
-      X: 0.7
-      Y: 0.7
+      X: 0.699999809
+      Y: 0.699999809
       Z: 2.69999981
     }
   }
@@ -2886,8 +2890,9 @@ Objects {
   Name: "Cylinder - Chamfered Small Polished"
   Transform {
     Location {
-      Y: 690
-      Z: 15
+      X: -902.629883
+      Y: 690.003784
+      Z: -2464.94
     }
     Rotation {
       Roll: 89.9999313
@@ -2958,8 +2963,9 @@ Objects {
   Name: "Cylinder - Chamfered Small Polished"
   Transform {
     Location {
-      Y: 339.999146
-      Z: 14.9997559
+      X: -902.630127
+      Y: 340.003723
+      Z: -2464.94043
     }
     Rotation {
       Roll: 89.9999313
@@ -3030,16 +3036,17 @@ Objects {
   Name: "Cylinder - Chamfered Small Polished"
   Transform {
     Location {
-      Y: -15.0003214
-      Z: 14.9998302
+      X: -902.63031
+      Y: -14.996089
+      Z: -2464.94092
     }
     Rotation {
       Roll: 89.9999313
     }
     Scale {
-      X: 0.8
-      Y: 0.8
-      Z: 0.4
+      X: 0.799999833
+      Y: 0.799999833
+      Z: 0.399999917
     }
   }
   ParentId: 9191485778566195483
@@ -3102,16 +3109,17 @@ Objects {
   Name: "Cylinder - Chamfered Small Polished"
   Transform {
     Location {
-      Y: -289.999878
-      Z: 14.9997253
+      X: -902.630615
+      Y: -289.994934
+      Z: -2464.94116
     }
     Rotation {
       Roll: 89.9999313
     }
     Scale {
-      X: 0.8
-      Y: 0.8
-      Z: 0.5
+      X: 0.799999833
+      Y: 0.799999833
+      Z: 0.499999911
     }
   }
   ParentId: 9191485778566195483
@@ -3174,8 +3182,9 @@ Objects {
   Name: "Cylinder - Chamfered Small Polished"
   Transform {
     Location {
-      Y: -399.999573
-      Z: 14.9986267
+      X: -902.630615
+      Y: -399.993805
+      Z: -2464.94165
     }
     Rotation {
       Roll: 89.9999313
@@ -3183,7 +3192,7 @@ Objects {
     Scale {
       X: 0.6
       Y: 0.6
-      Z: 2.60000014
+      Z: 2.6
     }
   }
   ParentId: 9191485778566195483
@@ -3295,7 +3304,9 @@ Objects {
   Name: "Cube - Chamfered Small Polished"
   Transform {
     Location {
-      X: -101.666664
+      X: -1436.80505
+      Y: 0.00678287214
+      Z: -3668.23926
     }
     Rotation {
     }
@@ -3365,7 +3376,9 @@ Objects {
   Name: "Cube - Chamfered Small Polished"
   Transform {
     Location {
-      X: 103.333336
+      X: -1231.80493
+      Y: 0.00593501329
+      Z: -3668.23926
     }
     Rotation {
     }
@@ -3435,7 +3448,9 @@ Objects {
   Name: "Cube - Chamfered Small Polished"
   Transform {
     Location {
-      X: -1.66666603
+      X: -1336.80688
+      Y: 0.00890252
+      Z: -3668.2417
     }
     Rotation {
     }
@@ -3505,7 +3520,7 @@ Objects {
   Name: "Hit Box"
   Transform {
     Location {
-      Y: -1.57064819
+      Y: 279.443848
       Z: 150
     }
     Rotation {
@@ -3555,6 +3570,7 @@ Objects {
   Name: "PickupTrigger"
   Transform {
     Location {
+      Y: 281.014648
       Z: 52.8413086
     }
     Rotation {

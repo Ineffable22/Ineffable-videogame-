@@ -6,7 +6,7 @@ Objects {
   Transform {
     Location {
       X: 73.0947266
-      Y: -150
+      Y: 131.014648
       Z: 50
     }
     Rotation {
@@ -260,14 +260,14 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
-      X: 40.0000038
+      X: 40
       Z: 0.090065
     }
     Rotation {
     }
     Scale {
-      X: 1.49999988
-      Y: 1
+      X: 1.49999976
+      Y: 0.99999994
       Z: 1
     }
   }
@@ -410,7 +410,7 @@ Objects {
   Transform {
     Location {
       X: 66.3029175
-      Y: 74.9945602
+      Y: 74.9946289
       Z: 14.0909271
     }
     Rotation {
@@ -621,7 +621,7 @@ Objects {
   Name: "Fantasy Crossbow Grip 01"
   Transform {
     Location {
-      X: 2.18148279
+      X: 2.18148422
       Z: 7.95332336
     }
     Rotation {
@@ -856,7 +856,7 @@ Objects {
   Transform {
     Location {
       X: 85
-      Y: 0.645170689
+      Y: 0.645019531
       Z: 7.20513916
     }
     Rotation {
@@ -990,7 +990,7 @@ Objects {
   Transform {
     Location {
       X: 80
-      Y: 0.234191895
+      Y: 0.234375
       Z: 13.1491394
     }
     Rotation {
@@ -1262,7 +1262,7 @@ Objects {
   Transform {
     Location {
       X: 78.321228
-      Y: 0.234191895
+      Y: 0.234375
       Z: 13.1491394
     }
     Rotation {
@@ -1965,7 +1965,7 @@ Objects {
   Transform {
     Location {
       X: 144.649231
-      Y: -231.200684
+      Y: 49.8139648
       Z: 17.9861
     }
     Rotation {
@@ -2279,14 +2279,14 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
-      X: 40.0000038
+      X: 40
       Z: 0.090065
     }
     Rotation {
     }
     Scale {
-      X: 1.49999988
-      Y: 1
+      X: 1.49999976
+      Y: 0.99999994
       Z: 1
     }
   }

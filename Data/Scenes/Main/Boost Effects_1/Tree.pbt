@@ -56,6 +56,7 @@ Objects {
   Name: "Distortion Ring Trail VFX"
   Transform {
     Location {
+      Y: 281.014648
     }
     Rotation {
     }
@@ -105,6 +106,7 @@ Objects {
   Name: "Spark Trail Wavy VFX"
   Transform {
     Location {
+      Y: 281.014648
     }
     Rotation {
     }
@@ -179,6 +181,7 @@ Objects {
   Name: "Magic Dark Buff or Debuff 01 SFX"
   Transform {
     Location {
+      Y: 281.014648
     }
     Rotation {
     }

@@ -47,6 +47,7 @@ Objects {
   Name: "Fantasy Sword Grip 01"
   Transform {
     Location {
+      Y: 281.014648
       Z: -10.6064453
     }
     Rotation {
@@ -112,7 +113,8 @@ Objects {
   Name: "Fantasy Sword Grip 01"
   Transform {
     Location {
-      Z: 14.4178925
+      Y: 281.014648
+      Z: 14.4179077
     }
     Rotation {
     }

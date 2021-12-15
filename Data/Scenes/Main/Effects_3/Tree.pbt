@@ -143,7 +143,7 @@ Objects {
   Transform {
     Location {
       X: -10.000001
-      Y: -34.9999886
+      Y: -35.0000038
       Z: -40
     }
     Rotation {
@@ -250,8 +250,8 @@ Objects {
   Name: "Shell Ejection VFX"
   Transform {
     Location {
-      X: 33.0200462
-      Y: -4.99998522
+      X: 33.0200233
+      Y: -5.00000048
       Z: 9.96095276
     }
     Rotation {

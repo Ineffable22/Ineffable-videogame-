@@ -175,13 +175,13 @@ Objects {
   Name: "Diamond - 6-Sided"
   Transform {
     Location {
-      Y: 3.33575439
+      Y: 284.350586
       Z: 10.3821716
     }
     Rotation {
       Pitch: 3.4150944e-05
       Yaw: -174.999619
-      Roll: -89.9999771
+      Roll: -89.9999695
     }
     Scale {
       X: 0.0562199242
@@ -245,8 +245,8 @@ Objects {
   Name: "Sphere"
   Transform {
     Location {
-      Y: -0.0374755859
-      Z: -26.160778
+      Y: 280.977051
+      Z: -26.1607819
     }
     Rotation {
     }
@@ -308,7 +308,7 @@ Objects {
   Name: "Diamond - 6-Sided"
   Transform {
     Location {
-      Y: -2.84844971
+      Y: 278.166016
       Z: 10.3821716
     }
     Rotation {
@@ -376,8 +376,8 @@ Objects {
   Name: "Cone - Truncated Hollow Wide Thick"
   Transform {
     Location {
-      Y: -0.0374755859
-      Z: 7.57117462
+      Y: 280.977051
+      Z: 7.57116699
     }
     Rotation {
       Yaw: -179.999954
@@ -450,13 +450,13 @@ Objects {
   Transform {
     Location {
       X: -5.62194824
-      Y: -0.0374755859
+      Y: 280.977051
       Z: 10.3821716
     }
     Rotation {
       Pitch: 1.29243565
       Yaw: -94.8306
-      Roll: -90.0547943
+      Roll: -90.0548096
     }
     Scale {
       X: 0.0562199242
@@ -517,8 +517,8 @@ Objects {
   Transform {
     Location {
       X: -23.6124268
-      Y: 1.59289551
-      Z: 13.1931686
+      Y: 282.607422
+      Z: 13.1931763
     }
     Rotation {
       Pitch: 9.56226431e-05
@@ -584,7 +584,7 @@ Objects {
   Transform {
     Location {
       X: 5.62194824
-      Y: -0.0374755859
+      Y: 280.977051
       Z: 10.3821716
     }
     Rotation {
@@ -651,8 +651,8 @@ Objects {
   Transform {
     Location {
       X: 23.6124268
-      Y: -1.66784668
-      Z: 13.1931686
+      Y: 279.34668
+      Z: 13.1931763
     }
     Rotation {
     }
@@ -714,7 +714,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      Y: -0.0374755859
+      Y: 280.977051
       Z: 10.3821716
     }
     Rotation {
@@ -778,8 +778,8 @@ Objects {
   Name: "Wedge - Concave Polished"
   Transform {
     Location {
-      Y: 1.31182861
-      Z: 13.1931686
+      Y: 282.32666
+      Z: 13.1931763
     }
     Rotation {
       Yaw: 89.9999313
@@ -838,8 +838,8 @@ Objects {
   Name: "Wedge - Concave Polished"
   Transform {
     Location {
-      Y: 1.31182861
-      Z: 13.1931686
+      Y: 282.32666
+      Z: 13.1931763
     }
     Rotation {
       Yaw: -89.999939
@@ -898,8 +898,8 @@ Objects {
   Name: "Wedge - Concave Polished"
   Transform {
     Location {
-      Y: -1.38677979
-      Z: 13.1931686
+      Y: 279.62793
+      Z: 13.1931763
     }
     Rotation {
       Yaw: -89.999939
@@ -958,8 +958,8 @@ Objects {
   Name: "Wedge - Concave Polished"
   Transform {
     Location {
-      Y: -1.38677979
-      Z: 13.1931686
+      Y: 279.62793
+      Z: 13.1931763
     }
     Rotation {
       Yaw: 89.9999313
@@ -1018,8 +1018,8 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      Y: -0.0374755859
-      Z: 69.4130478
+      Y: 280.977051
+      Z: 69.4130554
     }
     Rotation {
       Yaw: 89.9999542
@@ -1078,8 +1078,8 @@ Objects {
   Name: "Cone - Bullet"
   Transform {
     Location {
-      Y: -0.0374755859
-      Z: 13.1931686
+      Y: 280.977051
+      Z: 13.1931763
     }
     Rotation {
     }
@@ -1141,6 +1141,7 @@ Objects {
   Name: "Weapon Guide 2hand_sword"
   Transform {
     Location {
+      Y: 281.014648
     }
     Rotation {
     }
@@ -1686,6 +1687,7 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
+      Y: 281.014648
       Z: 75.5384903
     }
     Rotation {
@@ -1735,6 +1737,7 @@ Objects {
   Name: "Hit Box"
   Transform {
     Location {
+      Y: 281.014648
       Z: 91.5370865
     }
     Rotation {
@@ -2345,6 +2348,7 @@ Objects {
   Name: "Destructible Rifle 2"
   Transform {
     Location {
+      Y: 281.014648
     }
     Rotation {
     }
@@ -2555,7 +2559,6 @@ Objects {
   Transform {
     Location {
       X: 9.52880859
-      Y: -2.48977121e-05
       Z: 7.81673908
     }
     Rotation {
@@ -2627,11 +2630,11 @@ Objects {
   Transform {
     Location {
       X: 29.2020073
-      Y: -5.64502478
+      Y: -5.64501953
       Z: 13.8066206
     }
     Rotation {
-      Roll: -89.9999924
+      Roll: -90
     }
     Scale {
       X: 1
@@ -2683,7 +2686,7 @@ Objects {
   Transform {
     Location {
       X: 29.2020073
-      Y: 5.64531612
+      Y: 5.64550781
       Z: 13.8066206
     }
     Rotation {
@@ -2738,12 +2741,11 @@ Objects {
   Name: "Modern Weapon - Grip 01"
   Transform {
     Location {
-      X: 2.79868603
-      Y: -2.48977121e-05
+      X: 2.79868698
       Z: 5.86524868
     }
     Rotation {
-      Pitch: -19.9999943
+      Pitch: -20
     }
     Scale {
       X: 1
@@ -2795,7 +2797,6 @@ Objects {
   Transform {
     Location {
       X: 23.1359062
-      Y: -1.72683176e-05
       Z: -4.01969242
     }
     Rotation {
@@ -2866,8 +2867,7 @@ Objects {
   Transform {
     Location {
       X: -2.22470856
-      Y: -2.48977121e-05
-      Z: 15.5089273
+      Z: 15.5089264
     }
     Rotation {
     }
@@ -2929,8 +2929,7 @@ Objects {
   Name: "Modern Weapon Accessory - Rail 01"
   Transform {
     Location {
-      X: 3.33459187
-      Y: -2.48977121e-05
+      X: 3.33459091
       Z: 19.5140018
     }
     Rotation {
@@ -2985,7 +2984,6 @@ Objects {
   Transform {
     Location {
       X: 27.399662
-      Y: -2.48977121e-05
       Z: 13.7886019
     }
     Rotation {
@@ -3040,7 +3038,6 @@ Objects {
   Transform {
     Location {
       X: 27.3357468
-      Y: -2.48977121e-05
       Z: 13.7886019
     }
     Rotation {
@@ -3104,7 +3101,6 @@ Objects {
   Transform {
     Location {
       X: 52.6301041
-      Y: -2.48977121e-05
       Z: 13.7886019
     }
     Rotation {
@@ -3158,8 +3154,7 @@ Objects {
   Name: "Modern Weapon - Body 01"
   Transform {
     Location {
-      X: 13.5848665
-      Y: -2.48977121e-05
+      X: 13.5848656
       Z: 13.7886019
     }
     Rotation {
@@ -3247,7 +3242,6 @@ Objects {
   Transform {
     Location {
       X: 50.9217682
-      Y: -2.48977121e-05
       Z: 19.4132023
     }
     Rotation {
@@ -3302,7 +3296,6 @@ Objects {
   Transform {
     Location {
       X: 53.3851547
-      Y: -2.48977121e-05
       Z: 14.1252508
     }
     Rotation {
@@ -3358,8 +3351,7 @@ Objects {
   Name: "Modern Weapon - Sight Rear 01"
   Transform {
     Location {
-      X: 1.5038271
-      Y: -2.48977121e-05
+      X: 1.50382614
       Z: 19.4978199
     }
     Rotation {
@@ -3904,13 +3896,13 @@ Objects {
   Name: "Diamond - 6-Sided"
   Transform {
     Location {
-      Y: 3.33575439
+      Y: 284.350586
       Z: 10.3821716
     }
     Rotation {
       Pitch: 3.4150944e-05
       Yaw: -174.999619
-      Roll: -89.9999771
+      Roll: -89.9999695
     }
     Scale {
       X: 0.0562199242
@@ -3974,8 +3966,8 @@ Objects {
   Name: "Sphere"
   Transform {
     Location {
-      Y: -0.0374755859
-      Z: -26.160778
+      Y: 280.977051
+      Z: -26.1607819
     }
     Rotation {
     }
@@ -4037,7 +4029,7 @@ Objects {
   Name: "Diamond - 6-Sided"
   Transform {
     Location {
-      Y: -2.84844971
+      Y: 278.166016
       Z: 10.3821716
     }
     Rotation {
@@ -4105,8 +4097,8 @@ Objects {
   Name: "Cone - Truncated Hollow Wide Thick"
   Transform {
     Location {
-      Y: -0.0374755859
-      Z: 7.57117462
+      Y: 280.977051
+      Z: 7.57118225
     }
     Rotation {
       Yaw: -179.999954
@@ -4179,13 +4171,13 @@ Objects {
   Transform {
     Location {
       X: -5.62194824
-      Y: -0.0374755859
+      Y: 280.977051
       Z: 10.3821716
     }
     Rotation {
       Pitch: 1.29243565
       Yaw: -94.8306
-      Roll: -90.0547943
+      Roll: -90.0548096
     }
     Scale {
       X: 0.0562199242
@@ -4246,8 +4238,8 @@ Objects {
   Transform {
     Location {
       X: -23.6124268
-      Y: 1.59289551
-      Z: 13.1931686
+      Y: 282.607422
+      Z: 13.193161
     }
     Rotation {
       Pitch: 9.56226431e-05
@@ -4313,7 +4305,7 @@ Objects {
   Transform {
     Location {
       X: 5.62194824
-      Y: -0.0374755859
+      Y: 280.977051
       Z: 10.3821716
     }
     Rotation {
@@ -4380,8 +4372,8 @@ Objects {
   Transform {
     Location {
       X: 23.6124268
-      Y: -1.66784668
-      Z: 13.1931686
+      Y: 279.34668
+      Z: 13.193161
     }
     Rotation {
     }
@@ -4443,7 +4435,7 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      Y: -0.0374755859
+      Y: 280.977051
       Z: 10.3821716
     }
     Rotation {
@@ -4507,8 +4499,8 @@ Objects {
   Name: "Wedge - Concave Polished"
   Transform {
     Location {
-      Y: 1.31182861
-      Z: 13.1931686
+      Y: 282.32666
+      Z: 13.193161
     }
     Rotation {
       Yaw: 89.9999313
@@ -4567,8 +4559,8 @@ Objects {
   Name: "Wedge - Concave Polished"
   Transform {
     Location {
-      Y: 1.31182861
-      Z: 13.1931686
+      Y: 282.32666
+      Z: 13.193161
     }
     Rotation {
       Yaw: -89.999939
@@ -4627,8 +4619,8 @@ Objects {
   Name: "Wedge - Concave Polished"
   Transform {
     Location {
-      Y: -1.38677979
-      Z: 13.1931686
+      Y: 279.62793
+      Z: 13.193161
     }
     Rotation {
       Yaw: -89.999939
@@ -4687,8 +4679,8 @@ Objects {
   Name: "Wedge - Concave Polished"
   Transform {
     Location {
-      Y: -1.38677979
-      Z: 13.1931686
+      Y: 279.62793
+      Z: 13.193161
     }
     Rotation {
       Yaw: 89.9999313
@@ -4747,8 +4739,8 @@ Objects {
   Name: "Cube"
   Transform {
     Location {
-      Y: -0.0374755859
-      Z: 69.4130478
+      Y: 280.977051
+      Z: 69.4130402
     }
     Rotation {
       Yaw: 89.9999542
@@ -4807,8 +4799,8 @@ Objects {
   Name: "Cone - Bullet"
   Transform {
     Location {
-      Y: -0.0374755859
-      Z: 13.1931686
+      Y: 280.977051
+      Z: 13.193161
     }
     Rotation {
     }
@@ -4870,6 +4862,7 @@ Objects {
   Name: "Weapon Guide 2hand_sword"
   Transform {
     Location {
+      Y: 281.014648
     }
     Rotation {
     }
@@ -5415,6 +5408,7 @@ Objects {
   Name: "Pickup Trigger"
   Transform {
     Location {
+      Y: 281.014648
       Z: 299.787933
     }
     Rotation {
@@ -5464,6 +5458,7 @@ Objects {
   Name: "Hit Box"
   Transform {
     Location {
+      Y: 281.014648
       Z: 268.673431
     }
     Rotation {

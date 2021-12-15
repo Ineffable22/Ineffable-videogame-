@@ -100,6 +100,7 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
+      Y: 281.014648
       Z: -5
     }
     Rotation {
@@ -264,6 +265,7 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
+      Y: 281.014648
       Z: -5
     }
     Rotation {
@@ -428,6 +430,7 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
+      Y: 281.014648
       Z: -5
     }
     Rotation {
@@ -592,6 +595,7 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
+      Y: 281.014648
       Z: -5
     }
     Rotation {
@@ -755,6 +759,7 @@ Objects {
   Name: "Cylinder"
   Transform {
     Location {
+      Y: 281.014648
       Z: -5
     }
     Rotation {
