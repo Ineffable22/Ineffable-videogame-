@@ -2,7 +2,7 @@ Assets {
   Id: 16129092396499299800
   Name: "Ice Sword Magic Material"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 14977025590727287483
     ParameterOverrides {

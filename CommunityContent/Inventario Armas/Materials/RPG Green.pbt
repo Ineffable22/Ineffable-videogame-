@@ -2,7 +2,7 @@ Assets {
   Id: 10146494436890046445
   Name: "RPG Green"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 5007575082237907607
     ParameterOverrides {

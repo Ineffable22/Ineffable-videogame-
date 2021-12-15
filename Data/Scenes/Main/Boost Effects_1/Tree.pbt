@@ -47,6 +47,9 @@ Objects {
     InstanceId: 3781520021730759081
     TemplateId: 17265959842822844107
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3268985767798128558
@@ -91,6 +94,9 @@ Objects {
     TemplateId: 17265959842822844107
   }
   Relevance {
+    Value: "mc:eproxyrelevance:critical"
+  }
+  NetworkRelevanceDistance {
     Value: "mc:eproxyrelevance:critical"
   }
 }
@@ -164,6 +170,9 @@ Objects {
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 5961982023018210993
@@ -209,5 +218,8 @@ Objects {
     SubobjectId: 17651619762854776541
     InstanceId: 3781520021730759081
     TemplateId: 17265959842822844107
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

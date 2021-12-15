@@ -265,6 +265,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 4141840410639472508
@@ -293,6 +296,9 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -377,6 +383,9 @@ Assets {
         Folder {
           IsGroup: true
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 16751603679413619816
@@ -408,6 +417,9 @@ Assets {
             Id: 16739534410426971675
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 10192340967450854667
@@ -437,6 +449,9 @@ Assets {
         }
         NetworkContext {
           Type: Server
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -476,6 +491,9 @@ Assets {
             Id: 1029552401572918443
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 17961913428542425394
@@ -506,6 +524,9 @@ Assets {
           Value: "mc:ecollisionsetting:inheritfromparent"
         }
         NetworkContext {
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -565,6 +586,9 @@ Assets {
             Id: 18135358935140258002
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 299080842927840755
@@ -609,6 +633,9 @@ Assets {
           MinPitch: -89
           MaxPitch: 89
           UseAsAudioListener: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -656,6 +683,9 @@ Assets {
             Radius: 400
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 13628506977831254060
@@ -688,6 +718,9 @@ Assets {
         }
         NetworkContext {
           Type: Server
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -727,6 +760,9 @@ Assets {
             Id: 16283008941781232621
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 2082069195103173492
@@ -759,6 +795,9 @@ Assets {
             Id: 17151714718078339511
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 1360999410854141515
@@ -790,6 +829,9 @@ Assets {
           Value: "mc:ecollisionsetting:forceoff"
         }
         NetworkContext {
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -827,6 +869,9 @@ Assets {
           IsFilePartition: true
           FilePartitionName: "Scripts_1"
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 7920192514653970256
@@ -856,6 +901,9 @@ Assets {
           ScriptAsset {
             Id: 636762650850659826
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -889,6 +937,9 @@ Assets {
             Id: 3604875369627430638
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 13937662320691464253
@@ -921,6 +972,9 @@ Assets {
             Id: 17591616527005266865
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 8488269597213248660
@@ -952,6 +1006,9 @@ Assets {
           ScriptAsset {
             Id: 16745999281158886096
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -986,6 +1043,9 @@ Assets {
           ScriptAsset {
             Id: 7346515791052796888
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -1024,6 +1084,9 @@ Assets {
         }
         Folder {
           IsGroup: true
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -1069,6 +1132,9 @@ Assets {
             }
             BoundsScale: 1
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -1132,6 +1198,9 @@ Assets {
             BoundsScale: 1
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 541576003659523643
@@ -1193,6 +1262,9 @@ Assets {
             BoundsScale: 1
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 1817718153014022241
@@ -1237,6 +1309,9 @@ Assets {
             }
             BoundsScale: 1
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -1283,6 +1358,9 @@ Assets {
             BoundsScale: 1
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 9339018261929795789
@@ -1327,6 +1405,9 @@ Assets {
             }
             BoundsScale: 1
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -1373,6 +1454,9 @@ Assets {
             BoundsScale: 1
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 4857458838664830690
@@ -1418,6 +1502,9 @@ Assets {
             BoundsScale: 1
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 375023610274503599
@@ -1458,6 +1545,9 @@ Assets {
           TriggerShape_v2 {
             Value: "mc:etriggershape:box"
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -1519,6 +1609,9 @@ Assets {
           }
           Animation: "2hand_rifle_shoot"
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 9231063027365935928
@@ -1567,6 +1660,9 @@ Assets {
           KeyBinding_v2 {
             Value: "mc:egameaction:extraaction_33"
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
     }
@@ -1677,6 +1773,6 @@ Assets {
   Marketplace {
     Description: "[XRS] Scope AIM module\r\n\r\nFeatures \t\r\n\r\n1). UI Based Reticle Templates\r\n2). Game Art (kitbashed) Templating for Scope/ADS\r\n3). Uses it own Camera system to override players camera\r\n4). Third and First person compatible \r\n5). Easy Drag and Drop installation\r\n\r\nThis package comes with a few example guns setup using the module.\r\n\r\n[XRS] Advanced Assault Rifle example\r\n[XRS] [XRS] Advanced Sniper Rifle Example\r\n[XRS] Basic Pistol Example\r\n\r\nThe main drag and drop Module template.\r\n[XRS] Scope Aim Module\" Template\r\n\r\nThe folling (Game Art) Scope Templates\r\n[XRS] Advanced Assault Rifle Scope Template\r\n[XRS] Snipe Scope Template\r\n[XRS] Basic Pistol Scope Template\r\n\r\nUI Reticle Templates to get you started.\r\n[XRS] UI Reticle template example\r\n[XRS] UI Reticle Pistol template\r\n\r\n\r\nXRStudio: Chaz Scholton\r\n\r\n// Update Note //\r\n1.4.0\r\nWeaponsSpreadClient issue is fully resolved.   Custom Properties for WeaponsSpreadClient script on SniperRifle are now contained on the WeaponsSpreadClient of the Sniper Rifle, instead of the Weapons object itself.   The WeaponsSpreadClient of the Sniper Rifle was overwritting the Core Default Scripting for Stock Core Weapons, instead of creating a new instance of the script when Importing from CC.  \r\n\r\n1.3.0\r\nRolled back WeaponSpreadCleint fix on Assault Rifle since it ended up breaking the Sniper Rifle.  The Custom Properties for this script are setup on the Weapon object for some guns, for other guns they are Custom Properties on the script itself.   The Script itself is looking for these Custom Properpties to be on the Weapon object.  \r\n\r\nThis issue impacts the Example guns, and is not related directly to the Scope AIM module itself. \r\n\r\nMinor Documentation update.\r\n\r\n\r\n1.2.0\r\nAssault Rifle Example Update -  Fixed issue with WeaponSpreadClient inside the gun which is an issue in some of the Core Stock Weapons, and removed script duplicates.  This update was only for this gun.\r\n\r\n1.1.0\r\nThe Readme Documentation and some comments in the code has been updated.\r\nAlong with pictures on this Community Content listing.  The pictures are\r\nexamples of both Weapons Scope and ADS (Aiming Down Sight).\r\n\r\n\r\n\r\n------------------------------------------\r\n\r\nHere\'s my Discord contact information.\r\n\r\nChaz Scholton (XRStudio)#0990\r\n\r\n"
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
   DirectlyPublished: true
 }

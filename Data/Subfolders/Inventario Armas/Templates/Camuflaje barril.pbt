@@ -37,6 +37,9 @@ Assets {
             SelfId: 841534158063459245
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 10900238120315537409
@@ -71,6 +74,9 @@ Assets {
             Id: 8920954610308649135
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 5603802615830942086
@@ -104,6 +110,9 @@ Assets {
         }
         NetworkContext {
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
       Objects {
         Id: 15554583804078791011
@@ -136,6 +145,9 @@ Assets {
           ScriptAsset {
             Id: 13745432373454031843
           }
+        }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
         }
       }
       Objects {
@@ -188,6 +200,9 @@ Assets {
             BoundsScale: 1
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     Assets {
@@ -207,5 +222,5 @@ Assets {
   Marketplace {
     Description: "Este pack incluye 7 camuflajes: Barril, saco, toc\303\263n, piedra, calabaza, pila de calaveras y arbusto,y un inventario con todos ellos (Los camuflajes tienen que ser colocados en un inventario para su correcto funcionamiento).\r\nDe (relampago12)\r\n\r\nThis pack incloses 7 camouflages: Barrel, sack, stump, stone, pumpkin, pile of skulls and bush, and an inventory with all of them (Camouflages have to be placed in an inventory for their correct operation).\r\nDesigned by relampago12 for Camo wars, Castle figth, The mistery of killer, Dungeon wars y The last alien hunt."
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }

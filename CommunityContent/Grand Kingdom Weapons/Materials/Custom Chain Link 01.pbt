@@ -2,7 +2,7 @@ Assets {
   Id: 9535810272573883451
   Name: "Custom Chain Link 01"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 1638800834374228079
     ParameterOverrides {

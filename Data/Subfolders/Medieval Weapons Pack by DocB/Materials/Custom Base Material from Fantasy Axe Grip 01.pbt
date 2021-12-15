@@ -2,7 +2,7 @@ Assets {
   Id: 10883015013449582246
   Name: "Custom Base Material from Fantasy Axe Grip 01"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 18033297229984528543
     ParameterOverrides {

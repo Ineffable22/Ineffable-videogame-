@@ -2,7 +2,7 @@ Assets {
   Id: 7214530269311173485
   Name: "RPG Black"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 16222037075169868560
     ParameterOverrides {

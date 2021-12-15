@@ -2,7 +2,7 @@ Assets {
   Id: 13448103484330402212
   Name: "Poison Blast Edgeline Material"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 6186751883754370952
     ParameterOverrides {

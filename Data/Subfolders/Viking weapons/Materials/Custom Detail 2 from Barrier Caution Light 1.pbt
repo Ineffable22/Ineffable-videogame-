@@ -2,7 +2,7 @@ Assets {
   Id: 4656405203673916811
   Name: "Custom Detail 2 from Barrier Caution Light 1"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 319735194180483231
     ParameterOverrides {

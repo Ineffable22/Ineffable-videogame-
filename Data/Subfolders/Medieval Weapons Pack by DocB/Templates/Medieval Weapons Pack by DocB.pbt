@@ -26,6 +26,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -40,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "This CC comes complete with 10 unique and different medieval weapons.\r\nThe set comes with working weapon examples, and a blank geometry for you to edit or add on to your own weapon templates.\r\n\r\nThere is also a baseplate and background design so you can test weapons in a small world space!\r\n"
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }

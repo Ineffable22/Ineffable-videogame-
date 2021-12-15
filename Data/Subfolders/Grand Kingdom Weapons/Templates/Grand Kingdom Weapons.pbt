@@ -29,6 +29,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -43,5 +46,5 @@ Assets {
     Version: "1.0.0"
     Description: "10 Weapons each with four upgraded types.  FYI this is just the graphics in grouped folders."
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }

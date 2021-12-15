@@ -26,6 +26,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -40,5 +43,5 @@ Assets {
     Version: "1.0.0"
     Description: "Hello friends and fellow gamers, This is a weapons pack containing, The Midnight Rebel, Quillberd, WorldSpine, Yui\'s Wing, CarbonCLXBlade, JetSaber with shield and Jet Saber 2h all can easily have there damage changed to fit into your game. plus I added 1 additional weapon you will find it:) Hope you enjoy and have fun.\r\n                                                                                                          Athylian aka AdventureWithRoger"
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }

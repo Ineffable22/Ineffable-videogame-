@@ -2,7 +2,7 @@ Assets {
   Id: 12864632889072923748
   Name: "Custom Gold Treasure 01"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 2343329785943659229
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 1514925218976208386
   Name: "CT-Mossy rock_1"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 1905513809807440364
     ParameterOverrides {

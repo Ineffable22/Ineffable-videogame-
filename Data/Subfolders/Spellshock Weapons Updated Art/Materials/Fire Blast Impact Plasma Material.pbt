@@ -2,7 +2,7 @@ Assets {
   Id: 6793837810947119714
   Name: "Fire Blast Impact Plasma Material"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 12789658363081938200
     ParameterOverrides {

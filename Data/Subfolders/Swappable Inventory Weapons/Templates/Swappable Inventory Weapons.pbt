@@ -29,6 +29,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -43,5 +46,5 @@ Assets {
     Version: "1.0.0"
     Description: "The \"SwappableSwordPickup\" and \"SwappableSwordPickupRed\"  objects will automatically go to your \"Weapon\" slot in the inventory system. \r\nUses code from but does not require:\r\nInvenotry System by Chipnertkj"
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }

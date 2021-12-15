@@ -50,4 +50,7 @@ Objects {
     InstanceId: 18442141722377870073
     TemplateId: 1503547673213171831
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }

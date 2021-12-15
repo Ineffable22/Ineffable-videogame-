@@ -2,7 +2,7 @@ Assets {
   Id: 17964975539045981160
   Name: "Custom Base Material from Fantasy Sword Blade 01"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 11734626057827792721
     ParameterOverrides {

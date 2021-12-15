@@ -2,7 +2,7 @@ Assets {
   Id: 12201443786649219614
   Name: "Lightning"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 10057500872737833917
     ParameterOverrides {

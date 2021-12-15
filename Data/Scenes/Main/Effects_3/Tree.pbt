@@ -38,6 +38,9 @@ Objects {
     InstanceId: 2936620531816953763
     TemplateId: 692207590367269758
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3796815740236524785
@@ -76,6 +79,9 @@ Objects {
     SubobjectId: 11790855312081687585
     InstanceId: 2936620531816953763
     TemplateId: 692207590367269758
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -126,6 +132,9 @@ Objects {
     SubobjectId: 4842094825568154637
     InstanceId: 2936620531816953763
     TemplateId: 692207590367269758
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -179,6 +188,9 @@ Objects {
     InstanceId: 2936620531816953763
     TemplateId: 692207590367269758
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 7932409470754940772
@@ -228,6 +240,9 @@ Objects {
     SubobjectId: 17943717237270126516
     InstanceId: 2936620531816953763
     TemplateId: 692207590367269758
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -309,6 +324,9 @@ Objects {
   Relevance {
     Value: "mc:eproxyrelevance:critical"
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 11547529100895217955
@@ -367,6 +385,9 @@ Objects {
     InstanceId: 2936620531816953763
     TemplateId: 692207590367269758
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 2468801502859340838
@@ -409,6 +430,9 @@ Objects {
     InstanceId: 2936620531816953763
     TemplateId: 692207590367269758
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 6247918793485675562
@@ -446,5 +470,8 @@ Objects {
     SubobjectId: 13953390421669549306
     InstanceId: 2936620531816953763
     TemplateId: 692207590367269758
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

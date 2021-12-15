@@ -5,7 +5,7 @@ Objects {
   Name: "Third Person Camera Settings"
   Transform {
     Location {
-      Z: -1000
+      Z: 253.354919
     }
     Rotation {
     }
@@ -32,12 +32,16 @@ Objects {
   Folder {
     IsGroup: true
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 724324913679364851
   Name: "Client Context"
   Transform {
     Location {
+      Z: 1008.90338
     }
     Rotation {
     }
@@ -62,13 +66,18 @@ Objects {
   }
   NetworkContext {
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 3567959178173361743
   Name: "Third Person Camera"
   Transform {
     Location {
-      Z: 1638.64551
+      X: -1600.05127
+      Y: 395.92395
+      Z: -1112.98486
     }
     Rotation {
     }
@@ -112,6 +121,9 @@ Objects {
     MinPitch: -89
     MaxPitch: 89
     DoesPositionOffsetSpring: true
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -194,13 +206,16 @@ Objects {
       PlayerMasterVolumeMultiplier: 1
     }
   }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
+  }
 }
 Objects {
   Id: 16123814510452902121
   Name: "Default Bindings"
   Transform {
     Location {
-      Z: -1000
+      Z: 758.711304
     }
     Rotation {
     }
@@ -229,6 +244,9 @@ Objects {
     BindingSetAsset {
       Id: 736360303936294653
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }
 Objects {
@@ -337,5 +355,8 @@ Objects {
         Value: "mc:eplayerstoragemode:disabled"
       }
     }
+  }
+  NetworkRelevanceDistance {
+    Value: "mc:eproxyrelevance:critical"
   }
 }

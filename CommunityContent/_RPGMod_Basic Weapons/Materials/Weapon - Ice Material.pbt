@@ -2,7 +2,7 @@ Assets {
   Id: 10328086939580860180
   Name: "Weapon - Ice Material"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 13776493345656580306
     ParameterOverrides {

@@ -2,7 +2,7 @@ Assets {
   Id: 12200453174326991128
   Name: "Custom Base Material from Coral Branches Big"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 14013804980583177241
     ParameterOverrides {

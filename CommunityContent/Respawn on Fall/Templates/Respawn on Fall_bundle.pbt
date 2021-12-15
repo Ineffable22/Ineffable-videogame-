@@ -29,6 +29,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -43,5 +46,5 @@ Assets {
     Version: "1.5.0"
     Description: "Respawn the player when they reach below a certain Z level. This is so they don\'t infinitely fall into the void. Enjoy :D"
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }

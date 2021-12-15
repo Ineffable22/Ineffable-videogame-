@@ -37,6 +37,9 @@ Assets {
             }
           }
         }
+        NetworkRelevanceDistance {
+          Value: "mc:eproxyrelevance:critical"
+        }
       }
     }
     PrimaryAssetId {
@@ -51,5 +54,5 @@ Assets {
     Version: "1.0.0"
     Description: "9 weapons with all unique player stat changes includes invisibilty jumping speed etc."
   }
-  SerializationVersion: 101
+  SerializationVersion: 103
 }

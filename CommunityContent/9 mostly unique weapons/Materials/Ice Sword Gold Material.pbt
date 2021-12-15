@@ -2,7 +2,7 @@ Assets {
   Id: 8292006406171936126
   Name: "Ice Sword Gold Material"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 15308911657421308103
     ParameterOverrides {

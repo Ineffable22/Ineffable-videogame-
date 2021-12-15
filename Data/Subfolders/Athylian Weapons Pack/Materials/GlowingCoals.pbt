@@ -2,7 +2,7 @@ Assets {
   Id: 11058610985889757599
   Name: "GlowingCoals"
   PlatformAssetType: 13
-  SerializationVersion: 101
+  SerializationVersion: 103
   CustomMaterialAsset {
     BaseMaterialId: 4827675667390357808
     ParameterOverrides {

@@ -116,15 +116,6 @@ Assets {
   }
 }
 Assets {
-  Id: 12133488915439655550
-  Name: "Heart - Broken Left"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_heart_broken_left_001"
-  }
-}
-Assets {
   Id: 12095835209017042614
   Name: "Cube"
   PlatformAssetType: 1
@@ -221,15 +212,6 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_scope_001"
-  }
-}
-Assets {
-  Id: 7750605363032623716
-  Name: "Heart - Broken Right"
-  PlatformAssetType: 1
-  PrimaryAsset {
-    AssetType: "StaticMeshAssetRef"
-    AssetId: "sm_heart_broken_right_001"
   }
 }
 Assets {
