@@ -170,6 +170,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16233160665980130739
+  Name: "Fantasy Ability Blue 002"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Ability_Blue_002"
+  }
+}
+Assets {
   Id: 16212257895912924470
   Name: "Tree Redwood Bare Medium"
   PlatformAssetType: 1
@@ -284,6 +293,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_foliage_gen_clover_patch_002"
+  }
+}
+Assets {
+  Id: 14602246805481050411
+  Name: "Electric Surface"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "fxma_electrical_surface"
+  }
+}
+Assets {
+  Id: 14423048021034563976
+  Name: "BG Highlighted 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundHighlighted_021"
   }
 }
 Assets {
@@ -449,15 +476,6 @@ Assets {
   }
 }
 Assets {
-  Id: 11594910148849014947
-  Name: "Food Citrus 01"
-  PlatformAssetType: 2
-  PrimaryAsset {
-    AssetType: "MaterialAssetRef"
-    AssetId: "mi_food_generic_citrus_001_uv"
-  }
-}
-Assets {
   Id: 11561097891473466072
   Name: "Fishing Net 01"
   PlatformAssetType: 2
@@ -536,6 +554,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_scf_ship_engine_003_ref"
+  }
+}
+Assets {
+  Id: 10766975867019021707
+  Name: "Glass 01 (no distortion)"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_glass_001"
   }
 }
 Assets {
@@ -935,6 +962,15 @@ Assets {
   }
 }
 Assets {
+  Id: 5215642311684783620
+  Name: "Frame Outlined 003"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameSolid4px_021"
+  }
+}
+Assets {
   Id: 5144490934100011827
   Name: "Cube - Chamfered Small Polished"
   PlatformAssetType: 1
@@ -977,6 +1013,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_ivy_generic_001"
+  }
+}
+Assets {
+  Id: 4453205650207519648
+  Name: "Fantasy Knife 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Equip_Knife_001"
   }
 }
 Assets {
@@ -1034,6 +1079,15 @@ Assets {
   }
 }
 Assets {
+  Id: 3566864010338727187
+  Name: "Frame Outlined Thick 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "FrameFlat_020"
+  }
+}
+Assets {
   Id: 3430612835262212720
   Name: "Kelp Tile 01"
   PlatformAssetType: 1
@@ -1067,6 +1121,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "fxsm_animatedNeon_holiday_snowMan"
+  }
+}
+Assets {
+  Id: 2645782421413338837
+  Name: "Icon Weapon Crossbow"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_WeaponCrossbow"
+  }
+}
+Assets {
+  Id: 2593742631329398939
+  Name: "Deer"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_icon_Deer"
   }
 }
 Assets {
@@ -1151,6 +1223,15 @@ Assets {
   }
 }
 Assets {
+  Id: 1273952207434231057
+  Name: "Icon Rocket Launcher"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_RocketLaunch"
+  }
+}
+Assets {
   Id: 1137112816547272582
   Name: "Cylinder"
   PlatformAssetType: 1
@@ -1166,6 +1247,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_kelp_bush_02"
+  }
+}
+Assets {
+  Id: 1091082521220709179
+  Name: "Candle"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "UI_Fantasy_Icon_Candle"
   }
 }
 Assets {
@@ -1202,6 +1292,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_flower_water_lily_001"
+  }
+}
+Assets {
+  Id: 622433789355555801
+  Name: "BG Flat 001"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "BackgroundNoOutline_020"
   }
 }
 Assets {
@@ -1247,5 +1346,14 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "plastic_matte_001"
+  }
+}
+Assets {
+  Id: 26248689507004340
+  Name: "Icon Bomb"
+  PlatformAssetType: 9
+  PrimaryAsset {
+    AssetType: "PlatformBrushAssetRef"
+    AssetId: "Icon_Bomb"
   }
 }
