@@ -5,7 +5,7 @@ Objects {
   Name: "Crossbow of the North"
   Transform {
     Location {
-      X: 73.0947266
+      X: 2926.97461
       Y: 131.014648
       Z: 50
     }
