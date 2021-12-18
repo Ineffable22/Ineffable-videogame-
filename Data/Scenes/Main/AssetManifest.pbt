@@ -17,12 +17,30 @@ Assets {
   }
 }
 Assets {
+  Id: 17827341555520050575
+  Name: "Whitebox Floor 01 8m x 8m"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_floor_001_8x8"
+  }
+}
+Assets {
   Id: 17798409052959246679
   Name: "Modern Weapon - Grip 03"
   PlatformAssetType: 1
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_grip_003"
+  }
+}
+Assets {
+  Id: 17619731731262860672
+  Name: "Emissive Glow Transparent"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_basic_emissive_001"
   }
 }
 Assets {
@@ -50,6 +68,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_tree_redwood_003"
+  }
+}
+Assets {
+  Id: 17164668289428711060
+  Name: "Cylinder"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cylinder_002"
   }
 }
 Assets {
@@ -116,6 +143,15 @@ Assets {
   }
 }
 Assets {
+  Id: 16674500630361701963
+  Name: "Bricks Red 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_brick_red_001"
+  }
+}
+Assets {
   Id: 16547630242762331812
   Name: "Tree Birch 01"
   PlatformAssetType: 1
@@ -158,6 +194,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "Icon_Food"
+  }
+}
+Assets {
+  Id: 16270041946170787840
+  Name: "Cube - Rounded"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_rounded_002"
   }
 }
 Assets {
@@ -305,6 +350,15 @@ Assets {
   }
 }
 Assets {
+  Id: 14444805171556956697
+  Name: "Wallpaper Chevron 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_wallpaper_004"
+  }
+}
+Assets {
   Id: 14423048021034563976
   Name: "BG Highlighted 003"
   PlatformAssetType: 9
@@ -347,6 +401,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prim_cube_6_toned_001_ref"
+  }
+}
+Assets {
+  Id: 13631712585594906298
+  Name: "Plastic Matte"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "plastic_matte_001"
   }
 }
 Assets {
@@ -464,6 +527,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_prop_urb_ball_soccer_01_ref"
+  }
+}
+Assets {
+  Id: 11785886982020390712
+  Name: "Metal Frame 03"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_frames_003_uv"
   }
 }
 Assets {
@@ -611,6 +683,15 @@ Assets {
   }
 }
 Assets {
+  Id: 9674716234238313751
+  Name: "Chain Ceiling Anchor"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_chain_top_001"
+  }
+}
+Assets {
   Id: 9596279295616737498
   Name: "Japanese Temple Pillar 02 - Mid 01"
   PlatformAssetType: 1
@@ -653,6 +734,24 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_barreltip_002"
+  }
+}
+Assets {
+  Id: 9438567359880921691
+  Name: "Whitebox Wall 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_ts_gen_whitebox_wall_001"
+  }
+}
+Assets {
+  Id: 9372939288148738240
+  Name: "Cone - Truncated"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cone_truncated_001"
   }
 }
 Assets {
@@ -707,6 +806,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Ability_Teal_014"
+  }
+}
+Assets {
+  Id: 8459741047462466352
+  Name: "Chain Tile 01"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_chain_001"
   }
 }
 Assets {
@@ -1034,6 +1142,24 @@ Assets {
   }
 }
 Assets {
+  Id: 3985714508255158141
+  Name: "Invisible"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_invisible_001"
+  }
+}
+Assets {
+  Id: 3964233506348894606
+  Name: "Cube - Rounded Bottom-Aligned"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_cube_rounded_001"
+  }
+}
+Assets {
   Id: 3830888102854223075
   Name: "Wood Planks"
   PlatformAssetType: 2
@@ -1085,6 +1211,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "FrameFlat_020"
+  }
+}
+Assets {
+  Id: 3489509329730504515
+  Name: "Wood Planks"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_planks_001_uv"
   }
 }
 Assets {
@@ -1178,6 +1313,15 @@ Assets {
   }
 }
 Assets {
+  Id: 2275260513309488867
+  Name: "Sphere"
+  PlatformAssetType: 1
+  PrimaryAsset {
+    AssetType: "StaticMeshAssetRef"
+    AssetId: "sm_sphere_002"
+  }
+}
+Assets {
   Id: 2042353230298908149
   Name: "Fantasy Ability Yellow 024"
   PlatformAssetType: 9
@@ -1193,6 +1337,15 @@ Assets {
   PrimaryAsset {
     AssetType: "StaticMeshAssetRef"
     AssetId: "sm_weap_modern_stock_002"
+  }
+}
+Assets {
+  Id: 1694906334245735341
+  Name: "Wood Floor Light"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_wood_floor_light_001_uv"
   }
 }
 Assets {
@@ -1256,6 +1409,15 @@ Assets {
   PrimaryAsset {
     AssetType: "PlatformBrushAssetRef"
     AssetId: "UI_Fantasy_Icon_Candle"
+  }
+}
+Assets {
+  Id: 950502931320687448
+  Name: "Concrete Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_gen_concrete_001"
   }
 }
 Assets {
@@ -1346,6 +1508,15 @@ Assets {
   PrimaryAsset {
     AssetType: "MaterialAssetRef"
     AssetId: "plastic_matte_001"
+  }
+}
+Assets {
+  Id: 37736936843138452
+  Name: "Metal Basic 01"
+  PlatformAssetType: 2
+  PrimaryAsset {
+    AssetType: "MaterialAssetRef"
+    AssetId: "mi_metal_basic_001"
   }
 }
 Assets {
